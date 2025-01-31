@@ -14,7 +14,7 @@ To get started, you'll need these things:
 * A coach with ownership rights for the team repository on GitHub. The coach will invite collaborators (team members) to be able to edit the files in the repository
 
 ## Steps
-1. Set Up a Coach Account on GitHub
+1. [Set Up a Coach Account on GitHub](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-coach.md)
 2. Set Up a Team Member Account on GitHub
 3. Install software on a laptop (coaches and team members)
    - VS Code
