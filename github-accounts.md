@@ -1,7 +1,7 @@
-# GitHub Coach Account Setup
+# GitHub Account Setup
 
-Really, there isn't anything special with setting up the coach's GitHub account. Go to [https://github.com/](https://github.com/) and follow the instructions for a free account. You will not need any of the "extras". Once you have your account, then create a repository (or repo) for the FLL season. Last year I named our season repo "FLL-Fall-2024-Submerged", so maybe use something like that.
+Really, there isn't anything special with setting up the coach's and team member's GitHub accounts. Go to [https://github.com/](https://github.com/) and follow the instructions for a free account. You will not need any of the "extras". 
 
-The way we set our files up is we had a BaseRobot python class file named "base_robot.py". That class file had all of the parameters for the robot (tire size, wheelbase, ports where components were plugged in, etc), and all of the methods we'd need, such as gyro_drive and gyro_turn. Then each team member would write their own mission miles. You can see all of our files in our repo. But all of that will be done by the kids.
+Eventually the coach will need to invite the team members to act as collaborators in the repo. But to do that, they will need to have their account set up first and the coach will need to set up the repo.
 
-As the coach, you will need to invite the team members to act as collaborators in the repo. But to do that, they will need to have their account set up first and you will need to set up the repo.
+[Next: Install VS Code](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-vs-code.md)
