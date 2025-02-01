@@ -33,10 +33,10 @@ To get started, you'll need these things:
 
 ## Steps
 1. [Set Up a Coach Account on GitHub](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-coach.md)
-2. Set Up a Team Member Account on GitHub
-3. Install software on a laptop (coaches and team members)
-   - VS Code
-   - Git (for Windows)
-   - Python
-4. Create a GitHub repository for the season (coach)
-5. Clone the repository (team member)
+2. TODO [Set Up a Team Member Account on GitHub](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-team-member.md)
+3. TODO Install software on a laptop (coaches and team members)
+   - [VS Code](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-vs-code.md)
+   - [Git (for Windows)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-git.md)
+   - [Python](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-python.md)
+4. TODO [Create a GitHub repository for the season (coach)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-season-repo.md)
+5. TODO [Clone the repository (team member)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/clone-push.md)
