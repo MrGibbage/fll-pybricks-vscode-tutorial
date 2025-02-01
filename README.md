@@ -33,11 +33,10 @@ To get started, you'll need these things:
 * A coach with ownership rights for the team repository on GitHub. The coach will invite collaborators (team members) to be able to edit the files in the repository
 
 ## Steps
-1. [Set Up a Coach Account on GitHub](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-coach.md)
-2. TODO [Set Up a Team Member Account on GitHub](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-team-member.md)
-3. TODO Install software on a laptop (coaches and team members)
+1. [Set Up Coach and team member accounts on GitHub](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-accounts.md)
+2. TODO Install software on a laptop (coaches and team members)
    - [VS Code](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-vs-code.md)
    - [Git (for Windows)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-git.md)
    - [Python](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-python.md)
-4. TODO [Create a GitHub repository for the season (coach)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-season-repo.md)
-5. TODO [Clone the repository (team member)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/clone-push.md)
+3. TODO [Create a GitHub repository for the season (coach)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-season-repo.md)
+4. TODO [Clone the repository (team member)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/clone-push.md)
