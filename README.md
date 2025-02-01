@@ -4,8 +4,6 @@
 Hello,
 I am Skip Morrow. I have been coaching FIRST Lego League (FLL) for over ten years in Virginia-DC ([Team 24277, the Norfolk Collegiate O.A.K.S.](https://github.com/FLL-Team-24277)). In 2000 we switched to Spike Primes. Before that we used EV3's and the LabView programming environment. We always struggled with code sharing and code management. When we switched to Spike Primes, the kids on the team asked if we could use python. It turns out we could. I was excited that we'd be able to share our code more easily. But the Spike software required us to use their official development software. After doing some more research, I found [pybricks](https://github.com/pybricks), an open source python alternative for lego hubs. But even pybricks is more or less set up for doing development on their website. However, there is a perfect workaround for that. All in all, I think our solution is pretty much perfect. We can use VS Code, pybricks, and of course, GitHub.
 
-If your team is interested in using VS Code, pybricks and GitHub for FLL, then these instructions should get you going.
-
 ## Decisions, decisions...
 This is potentially a very big decision for you and your team. Definitely get your team involved with this decision process. This cannot be a situation where the coach just forces this on a team. This is absolutely a more advanced way of doing FLL, and it isn't for every team. Many, probably MOST, successful FLL teams use the built in scratch-like programming, so don't think you HAVE to do this in order to succeed. 
 
@@ -23,6 +21,8 @@ But there are some very nice benefits to doing it this way.
 * Code sharing and backups is automatic with github. If we need to make a change to the master program or base_robot.py, we make the change, push to github, and when the team members do a pull, they will have the latest software. They can also use any team laptop. They all have the same code, so when we go to tournaments, it doesn't matter which laptop we take.
 * Some people think the gyro implementation is better and more accurate in pybricks. That may be true, but I don't have much experience using the base firmwware, so I don't have anything to compare it to. I'd love to see someone doing some real-life tests that show this to be a fact, but I don't know if that has been done.
 * The pybricks developers are very reachable and love to help teams. They are very active on the support pages ([here](https://github.com/orgs/pybricks/discussions) and [here](https://github.com/pybricks/support/issues)) and love seeing FLL teams use their software. Try getting that level of support from Lego if you have questions about your code using the Lego firmware. By the way, Lego has very much endorsed pybricks. There are links to pybricks in several places on the Lego website ([example](https://education.lego.com/en-us/lessons/ev3-real-world-vehicles/speed-control-system/)).
+
+Convinced? Think you and your team are ready for this?
 
 ## What is needed
 To get started, you'll need these things:
