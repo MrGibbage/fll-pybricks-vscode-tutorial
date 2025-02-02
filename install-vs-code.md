@@ -1,1 +1,5 @@
-TODO
+We use "Visual Studio Code", or just "VS Code" (and sometimes just vscode, all one word) to edit our programs. VS Code is a programming editor that can be used for just about any programming language, and is used by millions (maybe billions) of people around the world. It is free, and developed by MicroSoft. For the kids that may find themselves writing even more software in the future, they very likely will be using VS Code again for those projects. This is a great way to get started using software that they actually might be using again as they get older.
+
+First navigate to https://code.visualstudio.com/download. Under the windows section, use the "System Installer" option. That way the software will be installed for all users on the laptop. This will require admin access to the laptop. If there will only be one user on the laptop, or if you don't have admin access, then you could use the "User Installer". Here's a direct link to the system installer. https://code.visualstudio.com/sha/download?build=stable&os=win32-x64
+
+Each web browser is different. I'm using MicroSoft Edge, and the downloaded files appear in the upper right corner of the browser window. Many browsers you can press ctrl-J to see the downloads. Find the file you downloaded and click on it (or double-click) to run it.
