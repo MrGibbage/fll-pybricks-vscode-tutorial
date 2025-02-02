@@ -50,3 +50,5 @@ All of the above plugins will be used by the coaches and team members. There are
 * TODO Tree (by Gruntfuggly)
 
 Once you have all of the extensions installed, we'll be done with VS Code for now. Next we will install git for windows.
+
+[Next: Install Git for Windows](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-git.md)
