@@ -14,6 +14,9 @@ Pro tip: Some schools restrict the emails that the students can receive (for ins
 ![6](https://github.com/user-attachments/assets/5faf900e-dd0e-4bef-a1a6-7d6f6020b41e)
 ![7](https://github.com/user-attachments/assets/aab7cd44-6c25-41ef-a3b1-6ebef479a280)
 ![8](https://github.com/user-attachments/assets/3b105a5b-e161-452a-88f0-88a1c6867455)
+
+Done! After we are done installing the software, we will create a repository and then invite the team members as collaborators. But first we need to install some software on our laptops.
+
 ![9](https://github.com/user-attachments/assets/bf08a83f-f5f4-4772-886e-a4fff7f16da0)
 
 [Next: Install VS Code](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-vs-code.md)
