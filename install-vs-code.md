@@ -33,7 +33,7 @@ You should see something like this
 ![2025-02-02](https://github.com/user-attachments/assets/b0976d6e-d7c5-42f3-81ef-f6e64024ebd0)
 
 
-The coached and the team members will need some extensions to make the whole experience better. Click on the fourth icon on the left side (it looks like four blocks, but one block is pulled out). Or you can press ctrl+shift+X
+The coaches and the team members will need some extensions to make the whole experience better. Click on the fourth icon on the left side (it looks like four blocks, but one block is pulled out). Or you can press ctrl+shift+X
 
 ![Screenshot 2025-02-02 121453](https://github.com/user-attachments/assets/1eaa603b-f33e-4fc1-af15-b8fbcb958064)
 
