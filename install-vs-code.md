@@ -9,17 +9,21 @@ You will get a "User Access Control" prompt, asking "Do you want to allow this a
 
 
 Read the user agreement, select "I accept the agreement", and click "Next"
+
 ![Screenshot 2025-02-02 110215](https://github.com/user-attachments/assets/4df8dab8-72d7-4080-aa37-1ee09d25d959)
 
 
 On the next screen for "Select additional tasks", the first three are up to you, but the last two options I do suggest enabling them as I have here:
+
 ![Screenshot 2025-02-02 110358](https://github.com/user-attachments/assets/1642f71a-bd18-4303-ae44-3fdf344d733a)
 
 
 Click "Install" and wait until the installation is finished:
+
 ![Screenshot 2025-02-02 110603](https://github.com/user-attachments/assets/a7f0b996-23a4-4328-a860-7e2c6760496e)
 
 
 Click "Finish" and VS Code will start up
+
 ![Screenshot 2025-02-02 110754](https://github.com/user-attachments/assets/56f24d0c-eb85-4e90-bbb7-77613b96ad7d)
 
