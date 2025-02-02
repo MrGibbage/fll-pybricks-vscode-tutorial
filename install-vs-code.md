@@ -16,3 +16,6 @@ On the next screen for "Select additional tasks", the first three are up to you,
 Click "Install" and wait until the installation is finished:
 ![Screenshot 2025-02-02 110603](https://github.com/user-attachments/assets/a7f0b996-23a4-4328-a860-7e2c6760496e)
 
+Click "Finish" and VS Code will start up
+![Screenshot 2025-02-02 110754](https://github.com/user-attachments/assets/56f24d0c-eb85-4e90-bbb7-77613b96ad7d)
+
