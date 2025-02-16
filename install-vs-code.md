@@ -40,16 +40,16 @@ The coaches and the team members will need some extensions to make the whole exp
 ![Screenshot 2025-02-02 121453](https://github.com/user-attachments/assets/1eaa603b-f33e-4fc1-af15-b8fbcb958064)
 
 Install the python extension, which will also install the pylance extension. Then use the search bar above the list of extensions to look for the following:
-* Error Lens (by Alexander)
-* git-autoconfig (by shyykoserhiy)
 * GitHub Pull Requests (by GitHub)
-* Black Formatter (by Microsoft)
 
 All of the above plugins will be used by the coaches and team members. There are some other extensions that coaches and certain team members may find useful, depending on their roles. Read the descriptions for each of these and decide if you want or need them.
 * GitLens — Git supercharged (by GitKraken)
 * Live Share (by Microsoft)
 * TODO Tree (by Gruntfuggly)
 * Codeium: AI Coding Autocomplete and Chat for Python, Javascript, Typescript, Java, Go, and more (by Codeium)
+* Black Formatter (by Microsoft)
+* Error Lens (by Alexander)
+* git-autoconfig (by shyykoserhiy)
 
 Once you have all of the extensions installed, we'll be done with VS Code for now. Next we will install git for windows.
 
