@@ -1,1 +1,2 @@
-TODO
+# Clone a Repo in VS Code
+To get started using VS Code as a team member (or coach) to edit/add team files in the repo, you have to first "clone" the repo. Cloning copies the existing code in the repo into a folder on your local computer. Then, as team members edit their code, they will then "push" those changes to GitHub. Then in oder for everyone to have a copy of the most current code, each team member will "pull" the updates from GitHub. Most of these steps are automated with our setup.
