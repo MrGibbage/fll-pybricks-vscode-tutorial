@@ -3,7 +3,7 @@ GitHub repositories (or "repos", plural of "repo") are like projects. You are re
 
 
 ## Create the Repository in the Team Account
-The team account will be used to hold all of the repos for the team. I have a new repo for each season. You may decide to just continue using the same repo each year. Both will work, and it is just up to you. However you do it, each season the team account will invite all of the team members (and coaches, if desired) as collaborators so that they can all provide code updates.
+This will only need to be done once for each season. The coach will probably do this, but if you have a team member that knows what they are doing, they could certainly do this. The team account will be used to hold all of the repos for the team. I have a new repo for each season. You may decide to just continue using the same repo each year. Both will work, and it is just up to you. However you do it, each season the team account will invite all of the team members (and coaches, if desired) as collaborators so that they can all provide code updates.
 
 Be sure you are logged in with the team account. To create a new repo using the team account, click the "New" button in the top left of the screen. Give your repo a name and optional description. You can make it public or private as desired (all of our repos are public). All of the other options are optional. I usually just ignore them. Click on "Create Repository" and you are done. 
 
@@ -14,7 +14,7 @@ To start you should have two laptops. You could do it with one, but you will spe
 
 In GitHub, collaborators will have the ability to add new files, edit existing files, and even delete files. They will have full ownership of all of the repo files. If that sounds scary, don't be worried. This is GitHub. Everything is logged, so you will know who did what, and everything is reversible. You can always go back in time. I have never had a problem where someone was messing with a file that they shouldn't have. 
 
-To add a collaborator, click on the repo settings (make sure you are logged in as the team account):
+These steps will need to be completed for each collaborator (team member/coaches). To add a collaborator, click on the repo settings (make sure you are logged in as the team account):
 ![Screenshot 2025-02-16 085945](https://github.com/user-attachments/assets/dc9ae865-7729-44c4-a920-393ae7218860)
 
 
