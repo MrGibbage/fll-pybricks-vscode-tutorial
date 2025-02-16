@@ -61,6 +61,9 @@ If you look at one of our past seasons, such as https://github.com/FLL-Team-2427
 ### Help folder
 I have a "help" folder where we put build instructions for the base robot, base attachment, and season mission model build instructions. The mission model build instructions are available on firstinspires, but I want them locally on the laptops in case they are needed. Basically, just put any other files such as packing lists, to-do lists, innovation project scripts, rubrics, season updates, etc. that you think the team may need during the season. 
 
+### .vscode folder
+You may have also noticed the .vscode folder in our repo. And yes, that folder name starts with a dot. That folder contains files for the VS Code workspace configuration. I include it in the repo so that all of the laptops will be configured the same way. In that folder there are three files that we use to help automate some of the GitHub work that we do, and to automate uploading code to the robot and running it. Read [here to learn more about the VS code configuration for pybricks and FLL teams](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/configure-pybricks-vscode.md).
+
 ### .gitignore
 .gitignore is a special file that you can include at the top of your repo, and yes, the filename does tart with a dot. There are some files and folders that really don't make sense to store on github, such as compiled python code and virtual python environments. Also, from a security point of view, you may want some sensitive files to not be uploaded to GitHub (for instance, that file where you are saving the passwords for your team members). There are many tutorials online about .gitignore if you want more information. This is the .gitignore file that we typically use:
 
