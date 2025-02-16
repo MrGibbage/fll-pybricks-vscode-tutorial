@@ -1,1 +1,3 @@
-TODO
+# Creating GitHub repositories
+
+We will need accounts for everyone involved (coaches and team members). There will also be an account for the team, and that is where the repository (or "repo") will reside. The coach will have the login information for the team so they can create the repo for the season. The coach will then use the team repos to invite everyone as collaborators. At this point, using the team account, the coach could also invite the coach's personal account as well, but it's not really necessary because the collaborators are the people doing the editing. I like to add myself as a collaborator because I do code reviews and add TODO and FIXME comments to their code
