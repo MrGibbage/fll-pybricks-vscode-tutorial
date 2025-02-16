@@ -41,11 +41,13 @@ The coaches and the team members will need some extensions to make the whole exp
 
 Coaches and team members should install the python extension, which will also install the pylance extension. The only other *required* extension at this time is GitHub Pull Requests (by GitHub). Use the search bar above the list of extensions to look for "Github" and select it from the list.
 
+![Screenshot 2025-02-16 101911](https://github.com/user-attachments/assets/d52ff211-904a-4374-b764-e5a15f5134d4)
+
 There are some other extensions that coaches and certain team members may find useful, depending on their roles. Read the descriptions for each of these and decide if you want or need them.
 * GitLens — Git supercharged (by GitKraken)
 * Live Share (by Microsoft)
 * TODO Tree (by Gruntfuggly)
-* Codeium: AI Coding Autocomplete and Chat for Python, Javascript, Typescript, Java, Go, and more (by Codeium)
+* Codeium: AI Coding Autocomplete and Chat for Python, Javascript, Typescript, Java, Go, and more (by Codeium) **OR** GitHub copilot
 * Black Formatter (by Microsoft) <-- Strongly recommend for coaches and team members
 * Error Lens (by Alexander) <-- Strongly recommend for coaches and team members
 * git-autoconfig (by shyykoserhiy) <-- strongly recommend for coaches and team members
