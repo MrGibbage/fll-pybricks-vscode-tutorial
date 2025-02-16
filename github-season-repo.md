@@ -74,3 +74,5 @@ __pycache__/
 # will sync .gitiginore 
 !/.gitignore
 ```
+
+[Next: Clone a repo in VS Code](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/clone-push.md)
