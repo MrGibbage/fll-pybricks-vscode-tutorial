@@ -12,14 +12,17 @@ To add a collaborator, click on the repo settings (make sure you are logged in a
 
 
 Right up at the top is the Collaborator link
+
 ![Screenshot 2025-02-16 090145](https://github.com/user-attachments/assets/745b5865-04dc-4877-8015-5bf49565e3ba)
 
 
 Click on the Add People button
+
 ![Screenshot 2025-02-16 090253](https://github.com/user-attachments/assets/d8037a20-5f1d-46df-a9f3-957e79f1c981)
 
 
 Search for the account name of one of the team members or coaches and add them
+
 ![Screenshot 2025-02-16 090728](https://github.com/user-attachments/assets/88da1796-94b5-4df1-ba58-464f48d87d7b)
 
 Assuming you invited a team member that is logged into GitHub on a different laptop, go to that laptop and accept the invite. It may take a minute or two, but that user should get a new message in their inbox.
