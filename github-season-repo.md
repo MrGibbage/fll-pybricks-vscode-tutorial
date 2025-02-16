@@ -3,13 +3,15 @@ GitHub repositories (or "repos", plural of "repo") are like projects. You are re
 
 
 ## Create the Repository in the Team Account
-This will only need to be done once for each season. The coach will probably do this, but if you have a team member that knows what they are doing, they could certainly do this. The team account will be used to hold all of the repos for the team. I have a new repo for each season. You may decide to just continue using the same repo each year. Both will work, and it is just up to you. However you do it, each season the team account will invite all of the team members (and coaches, if desired) as collaborators so that they can all provide code updates.
+This will only need to be done once for each season. The coach will probably do this, but if you have a team member that knows what they are doing, they could certainly do this. The team account will be used to hold all of the repos for the team. I have a new repo for each season. You may decide to just continue using the same repo each year. Both will work, and it is just up to you. If you decide to reuse the same repo each year you can skip this step.
 
 Be sure you are logged in with the team account. To create a new repo using the team account, click the "New" button in the top left of the screen. Give your repo a name and optional description. You can make it public or private as desired (all of our repos are public). All of the other options are optional. I usually just ignore them. Click on "Create Repository" and you are done. 
 
 Next you can start adding some files and folders to your repo, or you can add the collaborators. It really doesn't matter which one is done first. In fact, allong the way you (as coach) may need to add some more files, or add more collaborators (for instance, if a new team member joins the team). These are both things that you can do at any point during the season.
 
 ## Collaborators
+These steps assume you are starting with a new repo. If you are reusing an old repo, just clear out any collaborators that aren't needed and add in the new ones using the same steps as when you added them before.
+
 To start you should have two laptops. You could do it with one, but you will spend a lot of time logging in and out of different accounts. On one laptop log into GitHub with one of the team member accounts. On the other, log in as the Team account and start there.
 
 In GitHub, collaborators will have the ability to add new files, edit existing files, and even delete files. They will have full ownership of all of the repo files. If that sounds scary, don't be worried. This is GitHub. Everything is logged, so you will know who did what, and everything is reversible. You can always go back in time. I have never had a problem where someone was messing with a file that they shouldn't have. 
