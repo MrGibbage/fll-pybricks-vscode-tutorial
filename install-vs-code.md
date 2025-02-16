@@ -1,5 +1,7 @@
+# Visual Studio Code
 We use "Visual Studio Code", or just "VS Code" (and sometimes just vscode, all one word) to edit our programs. VS Code is a programming editor that can be used for just about any programming language, and is used by millions (maybe billions) of people around the world. It is free, and developed by Microsoft. For the kids that may find themselves writing even more software in the future, they very likely will be using VS Code again for those projects. This is a great way to get started using software that they actually might be using again as they get older.
 
+## Installing VS Code
 First navigate to https://code.visualstudio.com/download. Under the windows section, use the "System Installer" option. That way the software will be installed for all users on the laptop. This will require admin access to the laptop. If there will only be one user on the laptop, or if you don't have admin access, then you could use the "User Installer". Here's a direct link to the system installer. https://code.visualstudio.com/sha/download?build=stable&os=win32-x64
 
 Each web browser is different. I'm using MicroSoft Edge, and the downloaded files appear in the upper right corner of the browser window. Many browsers you can press ctrl-J to see the downloads. Find the file you downloaded and click on it (or double-click) to run it.
@@ -32,7 +34,7 @@ You should see something like this
 
 ![2025-02-02](https://github.com/user-attachments/assets/b0976d6e-d7c5-42f3-81ef-f6e64024ebd0)
 
-
+## VS Code Extensions
 The coaches and the team members will need some extensions to make the whole experience better. Click on the fourth icon on the left side (it looks like four blocks, but one block is pulled out). Or you can press ctrl+shift+X
 
 ![Screenshot 2025-02-02 121453](https://github.com/user-attachments/assets/1eaa603b-f33e-4fc1-af15-b8fbcb958064)
@@ -44,10 +46,10 @@ Install the python extension, which will also install the pylance extension. The
 * Black Formatter (by Microsoft)
 
 All of the above plugins will be used by the coaches and team members. There are some other extensions that coaches and certain team members may find useful, depending on their roles. Read the descriptions for each of these and decide if you want or need them.
-* autoDocstring (by Nils Werner)
 * GitLens — Git supercharged (by GitKraken)
 * Live Share (by Microsoft)
 * TODO Tree (by Gruntfuggly)
+* Codeium: AI Coding Autocomplete and Chat for Python, Javascript, Typescript, Java, Go, and more (by Codeium)
 
 Once you have all of the extensions installed, we'll be done with VS Code for now. Next we will install git for windows.
 
