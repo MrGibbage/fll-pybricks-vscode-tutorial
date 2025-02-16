@@ -6,6 +6,7 @@ Steps:
 2. Clone the repo in VS code
 3. Create a python virtual environment
 4. Create a new python file
+5. Push the file to GitHub
 
 ## Step 1. Copy the link to the github repo
 Using the laptop you are setting up, go to the github page for your repo. Make sure you are logged into github as the user that you are setting up (team member or coach). Then get the link to the repo.
