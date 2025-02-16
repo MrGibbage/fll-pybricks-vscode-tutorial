@@ -61,6 +61,17 @@ If you look at one of our past seasons, such as https://github.com/FLL-Team-2427
 ### Help folder
 I have a "help" folder where we put build instructions for the base robot, base attachment, and season mission model build instructions. The mission model build instructions are available on firstinspires, but I want them locally on the laptops in case they are needed. Basically, just put any other files such as packing lists, to-do lists, innovation project scripts, rubrics, season updates, etc. that you think the team may need during the season. You do not have to organize your files and folders this way. You may not even have a help folder like this.
 
+### requirements.txt
+requirements.txt is an optional file where you can store the names of all of the python packages you need for your project. For our setup, we definitely need `pybricks` and `pybricksdev`. I also chose to install the `black` autoformatter extension. You can see that I have a comment related to the pybricks version number. During the season, I want to make sure everyone is using the same pybricks version, and I do that in this requirements.txt file. Right now we are between seasons, and it isn't important. Later I will be using the requirements.txt file to install the packages.
+```
+# was previously pybricks==3.3.0a5
+# Consider each fall locking the version number again to make sure everyone is 
+# on the same version.
+pybricks
+pybricksdev
+black
+```
+
 ### .vscode folder
 You may have also noticed the .vscode folder in our repo. And yes, that folder name starts with a dot. That folder contains files for the VS Code workspace configuration. I include it in the repo so that all of the laptops will be configured the same way. In that folder there are three files that we use to help automate some of the GitHub work that we do, and to automate uploading code to the robot and running it. Read [here to learn more about the VS code configuration for pybricks and FLL teams](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/configure-pybricks-vscode.md).
 
