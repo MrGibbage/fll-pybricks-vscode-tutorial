@@ -41,7 +41,7 @@ To get started, you'll need these things:
    - (Optional, no instructions in this tutorial) [Spike V3 software](https://education.lego.com/en-us/downloads/spike-app/software/)
    - (Optional, no instructions in this tutorial) [Bricklink stud.io](https://www.bricklink.com/v3/studio/download.page)
 3. [Create a GitHub repository for the season (coach)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-season-repo.md)
-4. TODO [Configure pybricks to work with VS Code](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/configure-pybricks-vscode.md)
+4. TODO [Configure VS Code to automate GitHub pulls and running programs](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/configure-pybricks-vscode.md)
 5. TODO [Clone the repository (team member)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/clone-push.md)
 6. TODO [Install pybricks on your robot](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-pybricks.md)
 7. TODO Test running a program on the robot
