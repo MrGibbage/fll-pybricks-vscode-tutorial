@@ -50,6 +50,8 @@ If you chose to install the optional git autoconfig extension when you set up VS
 
 There you go! You have cloned the repo. All of the code is now on your local laptop, exactly like it was in the repo.
 
+## Step 3. Create a python virtual environment
+
 Before actually writing code though, you should create a python virtual environment. Virtual environments are a wonderful way of setting up a python environment specifically for each laptop and keep it separate from any other python development projects you have on the laptop.
 
 
