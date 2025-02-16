@@ -1,10 +1,14 @@
 # GitHub Account Setup
 
+We will need accounts for everyone involved (coaches and team members). There will also be an account for the team, and that is where the repository (or "repo") will reside. The coach will have the login information for the team so they can create the repo for the season. The coach will then use the team repos to invite everyone as collaborators. At this point, using the team account, the coach could also invite the coach's personal account as well, but it's not really necessary because the collaborators are the people doing the editing. I like to add myself as a collaborator because I do code reviews and add TODO and FIXME comments to their code.
+
 Really, there isn't anything special with setting up the coach's and team member's GitHub accounts. Go to [https://github.com/](https://github.com/) and follow the instructions for a free account. You will not need any of the "extras". 
 
 Eventually the coach will need to invite the team members to act as collaborators in the repo. But to do that, they will need to have their account set up first and the coach will need to set up the repo.
 
-Pro tip: Some schools restrict the emails that the students can receive (for instance, some schools may block emails from outside of the school). Make sure the kids use an email address that they can check while setting up the account. I asked my school's IT department to allow emails from GitHub through, which is reasonable in my opinion. GitHub is a Microsoft company, and they take personal security very seriously.
+Pro tip #1: Some schools restrict the emails that the students can receive (for instance, some schools may block emails from outside of the school). Make sure the kids use an email address that they can check while setting up the account. I asked my school's IT department to allow emails from GitHub through, which is reasonable in my opinion. GitHub is a Microsoft company, and they take personal security very seriously.
+
+Pro tip #2: Middle school kids forget their github logins. Ask the kids if they want you to save their usernames and passwords for them. Take the opportunity to teach them about good login practices and not reusing passwords, and maybe even using password managers. For the most part, once their GitHub accounts are set up and they have been invited as collaborators, they won't need their account information again because everything is saved and working, but there will come a time when they need to log in again (like maybe next year when it's time to start a new repo, or when they have another programming assignment in a coding class).
 
 ![1](https://github.com/user-attachments/assets/112e1631-7a87-426f-9af2-839ca98349bc)
 ![2](https://github.com/user-attachments/assets/ba902489-b55f-4ecd-bafd-00bd9a261c4c)
