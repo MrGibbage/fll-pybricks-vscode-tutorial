@@ -79,6 +79,7 @@ Here is our tasks.json file:
 
 <details>
 <summary>Click to expand</summary><p>
+
 ```json
 {
     "version": "2.0.0",
@@ -250,6 +251,7 @@ Here is our tasks.json file:
     ]
 }
 ```
+
 </p></details>
 
 ### Automating GitHub pulls
