@@ -85,6 +85,7 @@ If you watch quickly in the lower right corner, you will see the environment bei
 
 Next we need to install any python packages that are needed. For sure that will mean installing `pybricks` and `pybricksdev`. I also include the black python formatter. A nice feature for python is that you can put all of the requirements in a requirements.txt file and it is then easy to install them all at once. Otherwise you just have to open a new terminal and run a couple of commands
 
-In VS Code, press ctrl-\` That's ctrl plus the "tick mark", which is the key to the left of the number 1 (shared with the tilde ~). When you press ctrl-\`, a terminal should open up at the bottom of your screen
+In VS Code, press ctrl-\` That's ctrl plus the "tick mark", which is the key to the left of the number 1 (shared with the tilde ~). When you press ctrl-\`, a terminal should open up at the bottom of your screen. If everything is working, you should have a cmd shell or a PowerShell terminal (whichever you have set as default) and it the command prompt should start with (.venv), like below. Here I have opened a cmd shell, but I can also click on the drop down and open a PowerShell terminal as well. You can also see that the prompt starts with (.venv).
 
+![Screenshot 2025-02-17 142314](https://github.com/user-attachments/assets/a67f6b48-3e28-43b7-8a05-b5e1468c1c36)
 
