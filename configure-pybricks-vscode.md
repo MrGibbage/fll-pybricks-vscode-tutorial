@@ -50,3 +50,4 @@ There are some files the team members will never need to see in the VS Code inte
     ]
 }
 ```
+The first section, "files.exclude", define the list of files and folders that I don't want visible in the VS Code file panel. 
