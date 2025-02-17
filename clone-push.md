@@ -89,3 +89,28 @@ In VS Code, press ctrl-\` That's ctrl plus the "tick mark", which is the key to 
 
 ![Screenshot 2025-02-17 142314](https://github.com/user-attachments/assets/a67f6b48-3e28-43b7-8a05-b5e1468c1c36)
 
+Now all you have to do is run these commands:
+```
+pip install pybricks
+pip install pybricksdev
+pip install black (optional)
+```
+
+If you had a requirements.txt, sometimes when you create the virtual environment, VS code will ask if you want to install the packages in requirements.txt, but sometimes it doesn't. Anyway, if you do have a requirements.txt, you can install everything all at once with `pip install -r requirements.txt`.
+
+## Test push update to GitHub
+The last thing we will do is a test push to GitHub. You did keep that GitHub window open like I said in step 1, right? On the left hand side of the VS Code window, you should see a list of files. If you don't see the list of files, click on the top icon in the toolbar. Then click on the "New File..." icon. Give your file a name such as test, and type something in it like "hello world". Press ctrl-s to save it. 
+
+
+![Screenshot 2025-02-17 143403](https://github.com/user-attachments/assets/2d40f234-8f6a-42da-a6c4-faaf7b0cafea)
+
+Notice that the third icon in the tool bar now has a "1". That indicates that there is one update that hasn't been pushed to GitHub, so let's do that.
+
+![Screenshot 2025-02-17 143834](https://github.com/user-attachments/assets/f2ecf180-521c-4e74-9802-4469122c4e15)
+
+Now click on that third icon with the "1". We need to prepare the "commit" first. A "commit" is just a snapshot for git. Write a short commit message, something that identifies what this commit is about. It could be "solved mission #4", or "just testing". Whatever works for you. Then click on the "Commit and Sync" button.
+
+![Screenshot 2025-02-17 144140](https://github.com/user-attachments/assets/8d932c35-8eeb-455f-bb00-75ba2a93d522)
+
+At this point you may get a message that you need to authenticate with GitHub. Just click through and follow the instructions. If that all works, then you are fully connected to GitHub.
+
