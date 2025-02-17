@@ -18,7 +18,7 @@ There are many different settings that are configurable in VS Code. These are tw
 ### Hiding files in the VS Code Interface
 There are some files the team members will never need to see in the VS Code interface. I choose to hide them just to keep things neat and easier for the team members. This is a file called settings.json, and it is saved in the .vscode folder in your project folder. You can get to this file pretty easily by typing ctrl-shit-P, then start typing "preferences". Look for an entry that says "Preferences: Open Workspace Setting (JSON)" (be sure it says "workspace" and not "keybindings"... we'll be editing that file later).
 <details>
-<summary>![#1589F0]Click to expand `#1589F0`</summary><p>
+<summary> ![#1589F0]Click to expand `#1589F0`</summary><p>
 
 ```json
 {
