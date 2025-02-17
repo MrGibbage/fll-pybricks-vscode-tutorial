@@ -83,6 +83,8 @@ If you watch quickly in the lower right corner, you will see the environment bei
 ![Screenshot 2025-02-16 183842](https://github.com/user-attachments/assets/733224ed-3262-45d2-b8b3-121d3ef8d2ac)
 
 
+Next we need to install any python packages that are needed. For sure that will mean installing `pybricks` and `pybricksdev`. I also include the black python formatter. A nice feature for python is that you can put all of the requirements in a requirements.txt file and it is then easy to install them all at once. Otherwise you just have to open a new terminal and run a couple of commands
 
+In VS Code, press ctrl-\` That's ctrl plus the "tick mark", which is the key to the left of the number 1 (shared with the tilde ~). When you press ctrl-\`, a terminal should open up at the bottom of your screen
 
 
