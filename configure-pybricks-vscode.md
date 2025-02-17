@@ -57,6 +57,8 @@ There are some files the team members will never need to see in the VS Code inte
     ]
 }
 ```
+</p></details>
+
 The first section, "files.exclude", define the list of files and folders that I don't want visible in the VS Code file panel. There is a good [help page here](https://code.visualstudio.com/docs/editor/codebasics#_advanced-search-options) on the patterns for file matching. As you can probably tell, the first few entries in our settings are for folders, and the last few entries are for some specific files that we don't want visible to everyone.
 
 By the way, this ONLY hides the files/folders in the VS Code interface. Anyone can still open the windows explorer and see/edit these files. What's more, all files in the repo will be pushed to GitHub **UNLESS** you include them in your .gitignore file. These are two very different things.
@@ -76,7 +78,7 @@ Tasks are configured in .vscode/tasks.json
 Here is our tasks.json file:
 
 <details>
-<summary>Click to expand</summary>
+<summary>Click to expand</summary><p>
 ```json
 {
     "version": "2.0.0",
