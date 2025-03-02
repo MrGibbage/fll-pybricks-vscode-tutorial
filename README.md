@@ -25,6 +25,12 @@ But there are some very nice benefits to doing it this way.
 
 Convinced? Think you and your team are ready for this?
 
+## Goals/Requirements
+- [ ] Using Python
+- [ ] Using Pybricks
+- [ ] Code sharing via GitHub
+- [ ] Editing using VS Code
+
 ## What is needed
 To get started, you'll need these things:
 * A lego hub such as EV3 or Spike Prime. Our team uses Spike Primes, so this tutorial will be Spike Prime-focused. But I think the steps are pretty much the same for EV3s if you are using them.
