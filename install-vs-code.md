@@ -47,7 +47,7 @@ There are some other extensions that coaches and certain team members may find u
 * GitLens — Git supercharged (by GitKraken)
 * Live Share (by Microsoft)
 * TODO Tree (by Gruntfuggly)
-* Codeium: AI Coding Autocomplete and Chat for Python, Javascript, Typescript, Java, Go, and more (by Codeium) **OR** GitHub copilot
+* Codeium: AI Coding Autocomplete and Chat for Python, Javascript, Typescript, Java, Go, and more (by Codeium) **OR** GitHub copilot, Google Gemini, and several others. This tutorial will not address using AI, so that is up to you to figure out. I can tell you there are some good ones and I really like having them as an option.
 * Black Formatter (by Microsoft) <-- Strongly recommend for coaches and team members
 * Error Lens (by Alexander) <-- Strongly recommend for coaches and team members
 * git-autoconfig (by shyykoserhiy) <-- strongly recommend for coaches and team members
