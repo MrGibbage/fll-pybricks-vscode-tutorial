@@ -26,10 +26,12 @@ But there are some very nice benefits to doing it this way.
 Convinced? Think you and your team are ready for this?
 
 ## Goals/Requirements
-- [ ] Using Python
-- [ ] Using Pybricks
-- [ ] Code sharing via GitHub
-- [ ] Editing using VS Code
+- [ ] Uses Python
+- [ ] Uses Pybricks
+- [ ] Enables code sharing via GitHub
+- [ ] Enables code editing using VS Code
+- [ ] Enables master program
+- [ ] Robot performance should be similar to stock Lego firmware
 
 ## What is needed
 To get started, you'll need these things:
