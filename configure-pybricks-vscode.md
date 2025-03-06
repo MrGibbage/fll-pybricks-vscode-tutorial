@@ -2,11 +2,11 @@
 
 There are several tasks that you will need to do frequently as a team member writing code for your missions. As a coach, you will want to be able to explain to the team members how to do things such as uploading and running code on the robot. This section address the automation and configuration that I recommend. You can skip this section if you think you and your team are going to do everything manually.
 
-This section will adress a couple of settings:
+This section will address a couple of settings:
 * Hiding certain files from the VS Code interface
 * Simplifying GitHub pushes
 
-And it will also address what are called "tasks" in VS Code:
+And it will also address "tasks" in VS Code:
 * Automating GitHub Pulls
 * Running mission code on robots (includes master programs and single mission programs)
 
@@ -59,12 +59,14 @@ There are some files the team members will never need to see in the VS Code inte
 ```
 </p></details>
 
-The first section, "files.exclude", define the list of files and folders that I don't want visible in the VS Code file panel. There is a good [help page here](https://code.visualstudio.com/docs/editor/codebasics#_advanced-search-options) on the patterns for file matching. As you can probably tell, the first few entries in our settings are for folders, and the last few entries are for some specific files that we don't want visible to everyone.
+The first section, "files.exclude", defines the list of files and folders that I don't want visible in the VS Code file panel. There is a good [help page here](https://code.visualstudio.com/docs/editor/codebasics#_advanced-search-options) on the patterns for file matching. As you can probably tell, the first few entries in our settings are for folders, and the last few entries are for some specific files that we don't want visible to everyone.
 
 By the way, this ONLY hides the files/folders in the VS Code interface. Anyone can still open the windows explorer and see/edit these files. What's more, all files in the repo will be pushed to GitHub **UNLESS** you include them in your .gitignore file. These are two very different things.
 
+I choose to hide our master_program.py and base_robot.py files because most of the kids will not need to edit it. The more advanced kids that help out with writing the base_robot.py file, and the master_program.py file will know that they can always type ctrl-o and browse to the files they need.
+
 ### Simplifying GitHub pushes
-One other thing that we did was to save one extra button click for GitHub pushes. The default is to prepare a git commit, add a commit message, and then commit the commit (yes, it is a verb and a noun). Afterwards, to get the commit into the GitHub repo, you have to do a push (sync). The setting above `"git.postCommitCommand": "sync"` saves that last button click and automatically syncs every time they do a git commit. Not  ahuge deal, but still nice.
+One other thing that we did was to save one extra button click for GitHub pushes. The default is to prepare a git commit, add a commit message, and then commit the commit (yes, it is a verb and a noun). Afterwards, to get the commit into the GitHub repo, you have to do a push (sync). The setting above `"git.postCommitCommand": "sync"` saves that last button click and automatically syncs every time they do a git commit. Not a huge deal, but still nice.
 
 You can see a couple of the other settings we have configured in our settings.json file. I won't go into them here.
 
@@ -73,7 +75,7 @@ I do sync the settings.json file in our repo so that every laptop will have the 
 ## Tasks
 Tasks are like macros in VS Code. You can configure them to do a lot of different things. Then you can assign keybindings to the tasks and you can do things like press ctrl-shift-L and that will upload the current program to the team member's robot and run it.
 
-Tasks are configured in .vscode/tasks.json
+Tasks are configured in .vscode/tasks.json. The keybindings that trigger the tasks are handled separately.
 
 Here is our tasks.json file:
 
