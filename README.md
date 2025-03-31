@@ -53,3 +53,5 @@ To get started, you'll need these things:
 5. [Configure VS Code to automate GitHub pulls and running programs](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/configure-pybricks-vscode.md)
 6. TODO [Install pybricks on your robot](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-pybricks.md)
 7. TODO Test running a program on the robot
+
+[Next: Set Up Coach and team member accounts on GitHub](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-accounts.md)
