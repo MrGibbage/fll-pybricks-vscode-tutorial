@@ -50,9 +50,15 @@ To get started, you'll need these things:
    - (Optional, no instructions in this tutorial) [Spike V3 software](https://education.lego.com/en-us/downloads/spike-app/software/)
    - (Optional, no instructions in this tutorial) [Bricklink stud.io](https://www.bricklink.com/v3/studio/download.page)
 3. [Create a GitHub repository for the season (coach)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-season-repo.md)
-4. Configure team member laptops
+4. [Configure team member laptops](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/configure-laptops.md)
    - [Clone the repository (team member)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/clone-push.md)
-   - [Configure VS Code to automate GitHub pulls and running programs](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/configure-pybricks-vscode.md)
+   - [Updating Team mission code](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-team-mission-code.md)
+   - [VS Code Extensions](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-extensions.md)
+   - [Tasks](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-tasks.md)
+   - [Snippets](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-snippets.md)
+   - [Keybindings](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-keybindings.md)
+   - [VS Code Settings](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-settings.md)
+   - [Environment Variables](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-env-variable.md)
 7. TODO [Install pybricks on your robot](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-pybricks.md)
 8. TODO Test running a program on the robot
 
