@@ -22,7 +22,7 @@ You only need to fill in two fields here. First, the source repo. I suggest `htt
 Next you can start adding some files and folders to your repo, or you can add the collaborators. It really doesn't matter which one is done first. In fact, allong the way you (as coach) may need to add some more files, or add more collaborators (for instance, if a new team member joins the team). These are both things that you can do at any point during the season.
 
 ## Collaborators
-These steps assume you are starting with a new repo. If you are reusing an old repo, just clear out any collaborators that aren't needed and add in the new ones using the same steps as when you added them before.
+These steps assume you are starting with a new repo (or a repo that you imported). If you are reusing an old repo, just clear out any collaborators that aren't needed and add in the new ones using the same steps as when you added them before.
 
 To start you should have two laptops. You could do it with one, but you will spend a lot of time logging in and out of different accounts. On one laptop log into GitHub with one of the team member accounts. On the other, log in as the Team account and start there.
 
