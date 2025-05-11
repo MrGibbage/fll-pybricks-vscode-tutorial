@@ -51,7 +51,6 @@ To get started, you'll need these things:
    - (Optional, no instructions in this tutorial) [Bricklink stud.io](https://www.bricklink.com/v3/studio/download.page)
 3. [Create a GitHub repository for the season (coach)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-season-repo.md)
 4. [Configure team member laptops](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/configure-laptops.md)
-   - [Create and configure the team repository](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/clone-push.md)
    - [Clone the team repository](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/clone-push.md)
    - [Updating Team mission code](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-team-mission-code.md)
    - [VS Code Extensions](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-extensions.md)
