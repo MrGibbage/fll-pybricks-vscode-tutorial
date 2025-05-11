@@ -5,7 +5,19 @@ GitHub repositories (or "repos", plural of "repo") are like projects. You are re
 ## Create the Repository in the Team Account
 This will only need to be done once for each season. The coach will probably do this, but if you have a team member that knows what they are doing, they could certainly do this. The team account will be used to hold all of the repos for the team. I have a new repo for each season. You may decide to just continue using the same repo each year. Both will work, and it is just up to you. If you decide to reuse the same repo each year you can skip this step.
 
-Be sure you are logged in with the team account. To create a new repo using the team account, click the "New" button in the top left of the screen. Give your repo a name and optional description. You can make it public or private as desired (all of our repos are public). All of the other options are optional. I usually just ignore them. Click on "Create Repository" and you are done. 
+Be sure you are logged into github with the team account. To create a new repo using the team account, click the "New" button in the top left of the screen. If you want to use our repo to get started, that is fine. We have a clean, mostly empty repo that is perfect for getting started with a new season for FLL. Alternatively, you could create a new repo in your account and start from completely blank. Go to your team dashboard in github and create a new repo
+
+![image](https://github.com/user-attachments/assets/d7e51b6e-4c1f-470f-bfa9-4d601b680925)
+
+Then click on "Import a Repository" if you want to use our repo, or just fill out this form with the details requested if you want to start completely blank.
+
+![image](https://github.com/user-attachments/assets/f9ce8cc1-e198-4c12-bfb6-4b1c238c8efd)
+
+Here you will fill in the repo details.
+
+![image](https://github.com/user-attachments/assets/0f696b9b-44ea-4c16-aebf-d9cb7e918582)
+
+You only need to fill in two fields here. First, the source repo. I suggest `https://github.com/MrGibbage/pybricks-fll.git`. This repo has just the bare minimum to get started with a new season. It's what we use each year to initialize everything. Then set your new repository details. Make sure the dropdown is selected to your team account and then give the repo a name, such as fll-fall-2025-submerged. Click on "Create Repository" and you are ready for the next step. Wait a minute or two and when it is done, go to the page for your new repo.
 
 Next you can start adding some files and folders to your repo, or you can add the collaborators. It really doesn't matter which one is done first. In fact, allong the way you (as coach) may need to add some more files, or add more collaborators (for instance, if a new team member joins the team). These are both things that you can do at any point during the season.
 

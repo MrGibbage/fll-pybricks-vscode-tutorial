@@ -1,31 +1,15 @@
 # Clone a Repo in VS Code
-You will need a repo to store your team code. You can either create a blank, empty repo, or you can use one that I have created with just the basics, and pretty much all of the configuration settings discussed on this site. Cloning copies the existing code in a repo into a folder on your local computer. Then, as team members edit their code, they will then "push" those changes to GitHub. Then in oder for everyone to have a copy of the most current code, each team member will "pull" the updates from GitHub. Most of these steps are automated with our setup [which you can learn here](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/configure-pybricks-vscode.md).
+You will need a copy of the repo on each laptop. Cloning copies the existing code in a repo into a folder on your local computer. Then, as team members edit their code, they will then "push" those changes to the team repo on GitHub. Then in oder for everyone to have a copy of the most current code, each team member will "pull" the updates from GitHub. Most of these steps are automated with our setup [which you can learn here](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/configure-pybricks-vscode.md).
 
 Steps:
 
-0. Import our repo into your account
 1. Copy the link to the repo
 2. Clone the repo in VS code
 3. Create a python virtual environment
 4. Create a new python file
 5. Push the file to GitHub
 
-## Step 0. Import our repo into your team account
-This step will only need to be done once, on the coach laptop. We need to set up a place where your team code will reside within your repo. If you want to use our repo to get started, that is fine. We have a clean, mostly empty repo that is perfect for getting started with a new season for FLL. Alternatively, you could create a new repo in your account and start from completely blank. Go to your team dashboard in github and create a new repo
-
-![image](https://github.com/user-attachments/assets/d7e51b6e-4c1f-470f-bfa9-4d601b680925)
-
-Then click on "Import a Repository" if you want to use our repo, or just fill out this form with the details requested if you want to start completely blank.
-
-![image](https://github.com/user-attachments/assets/f9ce8cc1-e198-4c12-bfb6-4b1c238c8efd)
-
-Here you will fill in the repo details.
-
-![image](https://github.com/user-attachments/assets/0f696b9b-44ea-4c16-aebf-d9cb7e918582)
-
-You only need to fill in two fields here. First, the source repo. I suggest `https://github.com/MrGibbage/pybricks-fll.git`. This repo has just the bare minimum to get started with a new season. It's what we use each year to initialize everything. Then set your new repository details. Make sure the dropdown is selected to your team account and then give the repo a name, such as fll-fall-2025-submerged. Click on "Create Repository" and you are ready for the next step. Wait a minute or two and when it is done, go to the page for your new repo.
-
-The rest of these steps will need to be done on each laptop you are setting up.
+All of these steps will need to be performed on each laptop.
 
 ## Step 1. Copy the link to the github repo
 Using the laptop you are setting up, go to the github page for your repo. Make sure you are logged into github as the user that you are setting up (team member or coach). Then get the link to the repo.
@@ -114,7 +98,7 @@ pip install pybricks
 pip install pybricksdev
 ```
 
-If you had a requirements.txt, sometimes when you create the virtual environment, VS code will ask if you want to install the packages in requirements.txt, but sometimes it doesn't. Anyway, if you do have a requirements.txt, you can install everything all at once with `pip install -r requirements.txt`.
+If you had a requirements.txt, sometimes when you create the virtual environment, VS code will ask if you want to install the packages in requirements.txt, but sometimes it doesn't. Anyway, if you do have a requirements.txt (our basic repo does), you can install everything all at once with `pip install -r requirements.txt`.
 
 ## Test push update to GitHub
 The last thing we will do is a test push to GitHub. You did keep that GitHub window open like I said in step 1, right? On the left hand side of the VS Code window, you should see a list of files. If you don't see the list of files, click on the top icon in the toolbar. Then click on the "New File..." icon. Give your file a name such as test, and type something in it like "hello world". Press ctrl-s to save it. 
