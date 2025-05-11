@@ -1,3 +1,6 @@
+# Snippets
+
+# Explained
 Snippets are an awesome way to save a lot of typing and preventing typos. For example, we have a program in our BaseRobot class called "driveForDistance" and there are several parameters that can be used. A line of code might look like this:
 
 `br.driveForDistance(100)`
@@ -33,3 +36,5 @@ You then have the option of selecting what parts of the profile you want to use.
 ![image](https://github.com/user-attachments/assets/f80c69ae-0edc-4a12-8de4-7432a8302e12)
 
 We are doing this primarily for the snippets, so be sure to select that option. You can also choose to enable the extensions here, and they will be automatically installed, which is nice. But I usually manage the extensions through the extensions.json file, as explained [here](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-extensions.md).
+
+[Next: How to update Keybindings](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-keybindings.md)

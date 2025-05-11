@@ -1,7 +1,12 @@
+# VS Code Extensions
+
+## Explained
 Extensions are one of the things that makes VS Code so versatile and, well, just great! Extensions in VS Code are a lot like extensions for a lot of other programs, such as your web browser. People write extensions and sometimes (OK, a LOT of times) make them available to the public. Most of the time for free. All of the extensions that I am recommending are free, and provide some functionality to make the programming experience easier or at least better.
 
-You can make a list of extensions and save them in the .vscode folder, named extensions.json. When a team member performs the first repo pull to their laptop, it will ask if they want to install the recommended extensions, in which case all they have to do is click "Yes". So while it doesn't automatically install the extensions for them without any intervention, it is pretty simple. THen, if you decide that you want to make a change to the extensions.json file, when they next pull the repo, VS Code will ask them if they want to install the newly recommended extensions.
+## Updating
+You can make a list of extensions and save them in the .vscode folder, named extensions.json. When a team member performs the first repo pull to their laptop, it will ask if they want to install the recommended extensions, in which case all they have to do is click "Yes". So while it doesn't automatically install the extensions for them without any intervention, it is pretty simple. Then, if you decide that you want to make a change to the extensions.json file, when they next pull the repo, VS Code will ask them if they want to install the newly recommended extensions.
 
+## File contents
 This is the current extensions.json file:
 
 ```json
