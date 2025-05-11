@@ -32,6 +32,7 @@ Convinced? Think you and your team are ready for this?
 - [ ] Enables code editing using VS Code
 - [ ] Enables master program
 - [ ] Robot performance should be similar to stock Lego firmware
+- [ ] All team member laptops should be set up the same way with a repeatable, documented process. While this goal should theoreticaly be possible with any solution, the goal is to keep it simple, and in a way such that if we need to update something in the setup for the laptops, it is as automatic as possible
 
 ## What is needed
 To get started, you'll need these things:
@@ -49,9 +50,10 @@ To get started, you'll need these things:
    - (Optional, no instructions in this tutorial) [Spike V3 software](https://education.lego.com/en-us/downloads/spike-app/software/)
    - (Optional, no instructions in this tutorial) [Bricklink stud.io](https://www.bricklink.com/v3/studio/download.page)
 3. [Create a GitHub repository for the season (coach)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-season-repo.md)
-4. [Clone the repository (team member)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/clone-push.md)
-5. [Configure VS Code to automate GitHub pulls and running programs](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/configure-pybricks-vscode.md)
-6. TODO [Install pybricks on your robot](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-pybricks.md)
-7. TODO Test running a program on the robot
+4. Configure team member laptops
+   - [Clone the repository (team member)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/clone-push.md)
+   - [Configure VS Code to automate GitHub pulls and running programs](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/configure-pybricks-vscode.md)
+7. TODO [Install pybricks on your robot](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-pybricks.md)
+8. TODO Test running a program on the robot
 
 [Next: Set Up Coach and team member accounts on GitHub](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-accounts.md)
