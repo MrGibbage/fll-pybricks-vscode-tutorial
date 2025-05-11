@@ -1,6 +1,6 @@
 # Installing pybrics on a Spike Prime
 
-There isn't much to say here that isn't already covered at https://code.pybricks.com/
+There isn't much to say here that isn't already covered at https://code.pybricks.com/ and https://pybricks.com/learn/getting-started/install-pybricks/
 
 Look on the left side and click on "Install Pybricks Firmware". I do have a couple of tips
 
