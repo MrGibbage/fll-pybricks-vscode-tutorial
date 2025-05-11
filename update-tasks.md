@@ -77,6 +77,7 @@ There is also a section where you will save the names of all of your robots. Thi
 ```
 
 The way this works, if the user types ctrl-alt-l, they will see the list of robots to choose from at the top of the screen.
+![image](https://github.com/user-attachments/assets/5d604a0d-df88-4bdb-b88b-13061d2f79ed)
 
 
 ## Updating
