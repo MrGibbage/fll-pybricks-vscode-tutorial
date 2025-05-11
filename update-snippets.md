@@ -50,4 +50,6 @@ You then have the option of selecting what parts of the profile you want to use.
 
 We are doing this primarily for the snippets, so be sure to select that option. You can also choose to enable the extensions here, and they will be automatically installed, which is nice. But I usually manage the extensions through the extensions.json file, as explained [here](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-extensions.md).
 
+I do have a copy of our profile in the basic repository. It being in the repo doesn't do anything to your laptop settings. You have to manually import it using the steps above before they will take place. Or you can just edit your own snippets, add them to a profile then share that with the team members.
+
 [Next: How to update Keybindings](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-keybindings.md)
