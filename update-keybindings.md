@@ -13,7 +13,7 @@ I also like these keybindings because while they were already in use by VS Code,
 
 Ctrl-l was for chat; Ctrl-alt-l was not in use; Ctrl-shift-l was for some advanced searching features; Ctrl-shift-alt-l was also for chat
 
-There are some other things these keybindings did, and if you want to review them, just open the VS Code palette with ctrl-ship-p, type keyboard, and choose "Preferences: Open Keyboard Shortcuts".
+There are some other things these keybindings did, and if you want to review them, just open the VS Code palette with ctrl-shift-p, type "keyboard", and choose "Preferences: Open Keyboard Shortcuts".
 
 ## Updating keybindings
 
