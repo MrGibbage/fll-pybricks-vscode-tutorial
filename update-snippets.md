@@ -1,6 +1,6 @@
 # Snippets
 
-# Explained
+## Explained
 Snippets are an awesome way to save a lot of typing and preventing typos. For example, we have a program in our BaseRobot class called "driveForDistance" and there are several parameters that can be used. A line of code might look like this:
 
 `br.driveForDistance(100)`
