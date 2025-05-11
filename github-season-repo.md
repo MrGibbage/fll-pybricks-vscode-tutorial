@@ -81,7 +81,6 @@ requirements.txt is an optional file where you can store the names of all of the
 # on the same version.
 pybricks
 pybricksdev
-black
 ```
 
 ### .vscode folder
