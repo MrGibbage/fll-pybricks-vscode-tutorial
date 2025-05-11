@@ -23,7 +23,7 @@ Here you will fill in the repo details.
 
 ![image](https://github.com/user-attachments/assets/0f696b9b-44ea-4c16-aebf-d9cb7e918582)
 
-You only need to fill in two fields here. First, the source repo. I suggest `https://github.com/MrGibbage/pybricks-fll.git`. This repo has just the bare minimum to get started with a new season. It's what we use each year to initialize everything. Then set your new rpository details. Make sure the dropdown is selected to your team account and then give the repo a name, such as fll-fall-2025-submerged. Click on "Create Repository" and you are ready for the next step. Wait a minute or two and when it is done, go to the page for your new repo.
+You only need to fill in two fields here. First, the source repo. I suggest `https://github.com/MrGibbage/pybricks-fll.git`. This repo has just the bare minimum to get started with a new season. It's what we use each year to initialize everything. Then set your new repository details. Make sure the dropdown is selected to your team account and then give the repo a name, such as fll-fall-2025-submerged. Click on "Create Repository" and you are ready for the next step. Wait a minute or two and when it is done, go to the page for your new repo.
 
 ## Step 1. Copy the link to the github repo
 Using the laptop you are setting up, go to the github page for your repo. Make sure you are logged into github as the user that you are setting up (team member or coach). Then get the link to the repo.
