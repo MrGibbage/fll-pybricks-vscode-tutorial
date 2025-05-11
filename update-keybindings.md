@@ -21,6 +21,6 @@ As mentioned, I want to set up those keyboard shortcuts. I could do it manually 
 
 [This is the repo for my extension](https://github.com/MrGibbage/vs-code-keybindings-for-pybricks). You don't need to do anything with that repo, but if you want to look over the code, there it is.
 
-If you want to do this manually for your laptops, there are a lot of tutorials online, but basically type ctrl-shit-p to open the command palette, type keyboard and choose "Preferences: Open Keyboard Shortcuts (JSON)". Make sure it says "(JSON)" at the end. There you can make the changes, and save the file. Place a copy of it somewhere online so you can copy and paste it in on each laptop.
+If you want to do this manually for your laptops, there are a lot of tutorials online, but basically type ctrl-shift-p to open the command palette, type keyboard and choose "Preferences: Open Keyboard Shortcuts (JSON)". Make sure it says "(JSON)" at the end. There you can make the changes, and save the file. Place a copy of it somewhere online so you can copy and paste it in on each laptop.
 
 [Next: How to update Settings](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-settings.md)
