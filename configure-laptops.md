@@ -21,6 +21,6 @@ This table defines where the configuration is stored for each item and how that 
 | Settings      | .vscode folder | git pull         |
 | Robot name    | Environment    | Manual           |
 
-We have a mostly empty repo that is already configured with the settings that will be described in these few steps. That repo is available [herre](https://github.com/MrGibbage/pybricks-fll).
+We have a mostly empty repo that is already configured with the settings that will be described in these few steps. That repo is available [here](https://github.com/MrGibbage/pybricks-fll).
 
 [Next: How to update Team mission code](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-team-mission-code.md)
