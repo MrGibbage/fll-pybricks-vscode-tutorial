@@ -12,12 +12,15 @@ Steps:
 
 ## Step 0. Import our repo into your team account
 If you want to use our repo to get started, that is fine. We have a clean, mostly empty repo that is perfect for getting started with a new season for FLL. Alternatively, you could create a new repo in your account and start from completely blank. Go to your team dashboard in github and create a new repo
+
 ![image](https://github.com/user-attachments/assets/d7e51b6e-4c1f-470f-bfa9-4d601b680925)
 
 Then click on "Import a Repository"
+
 ![image](https://github.com/user-attachments/assets/f9ce8cc1-e198-4c12-bfb6-4b1c238c8efd)
 
 Here you will fill in the repo details.
+
 ![image](https://github.com/user-attachments/assets/0f696b9b-44ea-4c16-aebf-d9cb7e918582)
 
 You only need to fill in two fields here. First, the source repo. I suggest `https://github.com/MrGibbage/pybricks-fll.git`. This repo has just the bare minimum to get started with a new season. It's what we use each year to initialize everything. Then set your new rpository details. Make sure the dropdown is selected to your team account and then give the repo a name, such as fll-fall-2025-submerged. Click on "Create Repository" and you are ready for the next step. Wait a minute or two and when it is done, go to the page for your new repo.
