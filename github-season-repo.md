@@ -87,7 +87,7 @@ pybricksdev
 You may have also noticed the .vscode folder in our repo. And yes, that folder name starts with a dot. That folder contains files for the VS Code workspace configuration. I include it in the repo so that all of the laptops will be configured the same way. In that folder there are three files that we use to help automate some of the GitHub work that we do, and to automate uploading code to the robot and running it. Read [here to learn more about the .vscode folder](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/dot-vscode-folder.md).
 
 ### .gitignore
-.gitignore is a special file that you can include at the top of your repo, and yes, the filename does tart with a dot. There are some files and folders that really don't make sense to store on github, such as compiled python code and virtual python environments. Also, from a security point of view, you may want some sensitive files to not be uploaded to GitHub (for instance, that file where you are saving the passwords for your team members). There are many tutorials online about .gitignore if you want more information. This is the .gitignore file that we typically use:
+.gitignore is a special file that you can include at the top of your repo, and yes, the filename does start with a dot. There are some files and folders that really don't make sense to store on github, such as compiled python code and virtual python environments. Also, from a security point of view, you may want some sensitive files to not be uploaded to GitHub (for instance, that file where you are saving the passwords for your team members). There are many tutorials online about .gitignore if you want more information. This is the .gitignore file that we typically use:
 
 ```
 # Will not sync these
