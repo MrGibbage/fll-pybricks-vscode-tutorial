@@ -101,4 +101,4 @@ __pycache__/
 !/.gitignore
 ```
 
-[Next: Clone a repo in VS Code](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/clone-push.md)
+[Next: Clone the Team Repo in VS Code](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/clone-push.md)
