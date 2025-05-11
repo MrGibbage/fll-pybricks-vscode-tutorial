@@ -2,11 +2,24 @@
 To get started using VS Code as a team member (or coach) to edit/add team files in the repo, you have to first "clone" the repo. Cloning copies the existing code in the repo into a folder on your local computer. Then, as team members edit their code, they will then "push" those changes to GitHub. Then in oder for everyone to have a copy of the most current code, each team member will "pull" the updates from GitHub. Most of these steps are automated with our setup [which you can learn here](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/configure-pybricks-vscode.md). These step do require you have the files in .vscode that I have.
 
 Steps:
+0. Import our repo into your account
 1. Copy the link to the repo
 2. Clone the repo in VS code
 3. Create a python virtual environment
 4. Create a new python file
 5. Push the file to GitHub
+
+## Step 0. Import our repo into your team account
+If you want to use our repo to get started, that is fine. We have a clean, mostly empty repo that is perfect for getting started with a new season for FLL. Alternatively, you could create a new repo in your account and start from completely blank. Go to your team dashboard in github and create a new repo
+![image](https://github.com/user-attachments/assets/d7e51b6e-4c1f-470f-bfa9-4d601b680925)
+
+Then click on "Import a Repository"
+![image](https://github.com/user-attachments/assets/f9ce8cc1-e198-4c12-bfb6-4b1c238c8efd)
+
+Here you will fill in the repo details.
+![image](https://github.com/user-attachments/assets/0f696b9b-44ea-4c16-aebf-d9cb7e918582)
+
+You only need to fill in two fields here. First, the source repo. I suggest `https://github.com/MrGibbage/pybricks-fll.git`. This repo has just the bare minimum to get started with a new season. It's what we use each year to initialize everything. Then set your new rpository details. Make sure the dropdown is selected to your team account and then give the repo a name, such as fll-fall-2025-submerged. Click on "Create Repository" and you are ready for the next step. Wait a minute or two and when it is done, go to the page for your new repo.
 
 ## Step 1. Copy the link to the github repo
 Using the laptop you are setting up, go to the github page for your repo. Make sure you are logged into github as the user that you are setting up (team member or coach). Then get the link to the repo.
@@ -89,11 +102,10 @@ In VS Code, press ctrl-\` That's ctrl plus the "tick mark", which is the key to 
 
 ![Screenshot 2025-02-17 142314](https://github.com/user-attachments/assets/a67f6b48-3e28-43b7-8a05-b5e1468c1c36)
 
-Now all you have to do is run these commands:
+Now all you have to do is run these two commands:
 ```
 pip install pybricks
 pip install pybricksdev
-pip install black (optional)
 ```
 
 If you had a requirements.txt, sometimes when you create the virtual environment, VS code will ask if you want to install the packages in requirements.txt, but sometimes it doesn't. Anyway, if you do have a requirements.txt, you can install everything all at once with `pip install -r requirements.txt`.
