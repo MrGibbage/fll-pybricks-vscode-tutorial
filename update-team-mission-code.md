@@ -62,6 +62,9 @@ There's not a whole lot here, but bascially it checks to see if the robotName en
 
 Remember that the kids can do a git pull at any time by going to the "Source Control" in the left had quick menu, and then clicking on the three dot menu and choosing "Pull".
 
+## Pushes
+The team members will want to be sure to do regular code "pushes" to github. For one thing, this is a backup of their code. I have never had a situation where a team member has "lost everything" because I make them push their code updates at the end of every practice.
+
 ## Updating
 Because these files are saved in the repo itself, if you ever need to update them, it's just a matter of making the update and doing a git push. Once it has been pushed, then the next time the team member does a pull, they will have your updates. Now, that means any team member could make a change to those files, and then push them to the repo, potentially breaking the automation. I have never seen that with any of my teams. One thing I do is hide the .vscode folder (along with a lot of other folders and files) from them. More on that in the "[Configure settings](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-settings.md)" section.
 
