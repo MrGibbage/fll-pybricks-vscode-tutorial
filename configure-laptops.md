@@ -26,7 +26,7 @@ We have a mostly empty repo that is already configured with the settings that wi
 ## Summary
 Because most of these configurations are saved in the .vscode folder, once you do a pull the settings that are saved there are pretty much done. You only have to do three things after doing the first pull:
 
-1. Install the keybindings extension, which should have happened if you chose to install all of the recommended extensions anyway, so now there is only one thing left to do
+1. Install the keybindings extension, which should have happened if you chose to install all of the recommended extensions anyway, so now there are only two things left to do
 2. Set up the snippets in the profile
 3. Set the environment variable
 
