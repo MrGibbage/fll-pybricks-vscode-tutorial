@@ -32,11 +32,17 @@ This is the current extensions.json file:
 ```
 
 "ms-python.black-formatter": Formats python code using industry standards
+
 "shyykoserhiy.git-autoconfig": manages git configurations
+
 "GitHub.vscode-pull-request-github": needed for github
+
 "ms-python.vscode-pylance": needed for python
+
 "ms-python.python": needed for python
+
 "ms-python.debugpy": needed for python
+
 "SkipMorrow.vs-code-keybindings-for-pybricks": extension that I wrote with some specific keybindings. See [update keybindings](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-keybindings.md) for more info.
 
 [Next: How to update Tasks](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-tasks.md)
