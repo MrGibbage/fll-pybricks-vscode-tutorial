@@ -11,10 +11,7 @@ Keyboard shortcuts, or keybindings, make life a lot easier in VS Code. You proba
 
 I also like these keybindings because while they were already in use by VS Code, they were for things I never used, and I never expected the team members to need. So you may want to consider that before using our keybindings.
 
-Ctrl-l was for chat
-Ctrl-alt-l was not in use
-Ctrl-shift-l was for some advanced searching features
-Ctrl-shift-alt-l was also for chat
+Ctrl-l was for chat; Ctrl-alt-l was not in use; Ctrl-shift-l was for some advanced searching features; Ctrl-shift-alt-l was also for chat
 
 There are some other things these keybindings did, and if you want to review them, just open the VS Code palette with ctrl-ship-p, type keyboard, and choose "Preferences: Open Keyboard Shortcuts".
 
