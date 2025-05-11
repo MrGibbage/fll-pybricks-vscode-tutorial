@@ -22,6 +22,17 @@ For example, we have the following snippet programmed
 
 So in this case, if the user types "dfd" (without the quotes), VS Code will popup an option use the snippet. If the user chooses the snippet, it will replace the "dfd" with `br.driveForDistance(distance=|, speedPct=80, then=Stop.BRAKE, wait=true)` and the cursor will be placed right after the equals sign following `distance=`. That way all they have to type is the distance value, say "100". Then if they hit the tab key, the cursor will move to the number 80 following `speedPct=` (80 is our default speed). That way they could easily update the speed parameter as well. Same for the `then=` parameter and the `wait=` parameter.
 
+Here's what it looks like after typing dfd
+
+![image](https://github.com/user-attachments/assets/55af02a1-11f8-450b-be01-6820326bedc0)
+
+And here is what it looks like after selecting the snippet
+
+![image](https://github.com/user-attachments/assets/efb3a12b-4991-464d-b34e-4020881ddb47)
+
+The cursor is right where the red squiggle underline is (VS code is complaining that there is an error because nothing has been entered yet).
+
+
 ## Updating snippets
 Snippets are not saved in the .vscode folder. Instead, they are saved in the profile. We keep a copy of the profile saved in the repo, so it is available on each laptop, but just having the profile saved is not enough to activate that profile. You can view and update profiles by clicking on the gear icon in the lower left of the VS Code screen. From there you can click on "Profile" and then "Profiles" (your exact wording may be different depending on if you have an active profile or not).
 
