@@ -12,7 +12,7 @@ Steps:
 All of these steps will need to be performed on each laptop.
 
 ## Step 1. Copy the link to the github repo
-Using the laptop you are setting up, go to the github page for your repo. Make sure you are logged into github as the user that you are setting up (team member or coach). Then get the link to the repo.
+Using the laptop you are setting up, go to the github page for your repo. Make sure you are logged into github as the user that you are setting up (team member or coach). Then get the link to the repo by clicking the green "code" button.
 
 ![Screenshot 2025-02-16 181100](https://github.com/user-attachments/assets/af39f2ce-f6d9-4fc6-98ab-3d7943f866da)
 
