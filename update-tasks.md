@@ -1,0 +1,51 @@
+Tasks in VS Code are used to integrate with external tools and programs. In this case, we want to be able to easily run our code on the robots using the pybricksdev.exe program. You could run this manually instead of configuring it with tasks, but that seemed like it would be too much of a challenege for the middle school kids. Once the tasks are written, they can easily be run with the "command pallete", which you normally access with ctrl-shift-P, or even better, you can run them with keybindings, so you can run your program on the robot just by pressing ctrl-l (that's "L", for "launch". I came up with that).
+
+In the .vscode folder there is a file "tasks.json" that contains all of the tasks. I mentioned one task earlier that does the automatic pull from github whenever the folder is opened. There are four other tasks in there:
+
+- Run on my robot (runs the currently open program on my robot)
+- Run on alt robot (runs the currently open program on an alternative selected robot)
+- Run master program on my robot (runs the master program on my robot)
+- Run master program on alt robot (runs the master program on an alternative selected robot)
+
+Here is the "Run on my robot" code. All of the others are basically the same:
+
+```json
+"tasks": [
+        {
+            "label": "Run on my robot",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/pybricksdev.exe",
+            "args": [
+                "run",
+                "ble",
+                "--name",
+                "${env:robotName}",
+                "${file}"
+            ],
+            "problemMatcher": {
+                "owner": "python",
+                "fileLocation": [
+                    "absolute"
+                ],
+                "pattern": {
+                    "regexp": "^(.*)File(.*)(C:(.*)\\.py)(.*)(line(\\s*))([0-9]+),",
+                    "file": 3,
+                    "line": 8
+                }
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": false,
+                "revealProblems": "onProblem"
+            }
+        },
+```
+The problemMatcher and presentation secions just make the user interface a little smoother, but the main thing are the "command" and "args" settings. The "command" finds and runs pybricksdev.exe, and the "args" are the command line arguments that pybricksdev.exe expects. Of note "${env:robotName}" finds the environment variable called "robotName" and gets the value for that setting. See [how to update the robotName environment variable](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-env-variable.md) for more information.
+
+Since the tasks.json file is saved in the .vscode folder, it is automatically updated with the repo. If you have any changes to make to the tasks, just make them and push the updated code.
+
+[Next: How to update snippets](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-snippets.md)
