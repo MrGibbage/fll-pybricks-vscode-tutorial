@@ -1,5 +1,5 @@
-# Clone a Repo in VS Code
-You will need a copy of the repo on each laptop. Cloning copies the existing code in a repo into a folder on your local computer. Then, as team members edit their code, they will then "push" those changes to the team repo on GitHub. Then in oder for everyone to have a copy of the most current code, each team member will "pull" the updates from GitHub. Most of these steps are automated with our setup [which you can learn here](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/configure-pybricks-vscode.md).
+# Clone the Team Repo
+You will need a copy of the repo on each laptop. Cloning copies the existing code in a repo into a folder on your local computer. Then, as team members edit their code, they will then "push" those changes to the team repo on GitHub. Then in oder for everyone to have a copy of the most current code, each team member will "pull" the updates from GitHub. Most of these steps are automated with our setup [which you can learn here](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-team-mission-code.md).
 
 Steps:
 
@@ -12,7 +12,7 @@ Steps:
 All of these steps will need to be performed on each laptop.
 
 ## Step 1. Copy the link to the github repo
-Using the laptop you are setting up, go to the github page for your repo. Make sure you are logged into github as the user that you are setting up (team member or coach). Then get the link to the repo.
+Using the laptop you are setting up, go to the github page for your repo. Make sure you are logged into github as the user that you are setting up (team member or coach). Then get the link to the repo by clicking the green "code" button.
 
 ![Screenshot 2025-02-16 181100](https://github.com/user-attachments/assets/af39f2ce-f6d9-4fc6-98ab-3d7943f866da)
 
@@ -116,4 +116,4 @@ Now click on that third icon with the "1". We need to prepare the "commit" first
 
 At this point you may get a message that you need to authenticate with GitHub. Just click through and follow the instructions. If that all works, then you are fully connected to GitHub.
 
-[Next: Configure pybricks in VS Code](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/configure-pybricks-vscode.md)
+[Next: Updating Team mission code (pulls and pushes)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-team-mission-code.md)

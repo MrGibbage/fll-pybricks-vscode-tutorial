@@ -22,7 +22,7 @@ You only need to fill in two fields here. First, the source repo. I suggest `htt
 Next you can start adding some files and folders to your repo, or you can add the collaborators. It really doesn't matter which one is done first. In fact, allong the way you (as coach) may need to add some more files, or add more collaborators (for instance, if a new team member joins the team). These are both things that you can do at any point during the season.
 
 ## Collaborators
-These steps assume you are starting with a new repo. If you are reusing an old repo, just clear out any collaborators that aren't needed and add in the new ones using the same steps as when you added them before.
+These steps assume you are starting with a new repo (or a repo that you imported). If you are reusing an old repo, just clear out any collaborators that aren't needed and add in the new ones using the same steps as when you added them before.
 
 To start you should have two laptops. You could do it with one, but you will spend a lot of time logging in and out of different accounts. On one laptop log into GitHub with one of the team member accounts. On the other, log in as the Team account and start there.
 
@@ -81,14 +81,13 @@ requirements.txt is an optional file where you can store the names of all of the
 # on the same version.
 pybricks
 pybricksdev
-black
 ```
 
 ### .vscode folder
-You may have also noticed the .vscode folder in our repo. And yes, that folder name starts with a dot. That folder contains files for the VS Code workspace configuration. I include it in the repo so that all of the laptops will be configured the same way. In that folder there are three files that we use to help automate some of the GitHub work that we do, and to automate uploading code to the robot and running it. Read [here to learn more about the VS code configuration for pybricks and FLL teams](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/configure-pybricks-vscode.md).
+You may have also noticed the .vscode folder in our repo. And yes, that folder name starts with a dot. That folder contains files for the VS Code workspace configuration. I include it in the repo so that all of the laptops will be configured the same way. In that folder there are three files that we use to help automate some of the GitHub work that we do, and to automate uploading code to the robot and running it. Read [here to learn more about the .vscode folder](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/dot-vscode-folder.md).
 
 ### .gitignore
-.gitignore is a special file that you can include at the top of your repo, and yes, the filename does tart with a dot. There are some files and folders that really don't make sense to store on github, such as compiled python code and virtual python environments. Also, from a security point of view, you may want some sensitive files to not be uploaded to GitHub (for instance, that file where you are saving the passwords for your team members). There are many tutorials online about .gitignore if you want more information. This is the .gitignore file that we typically use:
+.gitignore is a special file that you can include at the top of your repo, and yes, the filename does start with a dot. There are some files and folders that really don't make sense to store on github, such as compiled python code and virtual python environments. Also, from a security point of view, you may want some sensitive files to not be uploaded to GitHub (for instance, that file where you are saving the passwords for your team members). There are many tutorials online about .gitignore if you want more information. This is the .gitignore file that we typically use:
 
 ```
 # Will not sync these
@@ -102,4 +101,4 @@ __pycache__/
 !/.gitignore
 ```
 
-[Next: Clone a repo in VS Code](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/clone-push.md)
+[Next: Clone the Team Repo in VS Code](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/clone-push.md)

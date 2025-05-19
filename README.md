@@ -59,7 +59,7 @@ To get started, you'll need these things:
    - [Keybindings](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-keybindings.md)
    - [VS Code Settings](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-settings.md)
    - [Environment Variables](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-env-variable.md)
-7. TODO [Install pybricks on your robot](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-pybricks.md)
+7. [Install pybricks on your robot](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-pybricks.md)
 8. TODO Test running a program on the robot
 9. [Optional: What is the .vscode folder?](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/dot-vscode-folder.md)
 
