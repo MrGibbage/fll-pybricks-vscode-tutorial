@@ -27,7 +27,7 @@ Convinced? Think you and your team are ready for this?
 
 ## Goals/Requirements
 - [ ] Uses Python
-- [ ] Uses Pybricks
+- [ ] Uses Pybricks (OK, is using pybricks a goal or a solution? It goes both ways for us, so I am listing it as a goal)
 - [ ] Enables code sharing via GitHub
 - [ ] Enables code editing using VS Code
 - [ ] Enables master program
