@@ -1,15 +1,15 @@
 # Snippets
 
 ## Explained
-Snippets are an awesome way to save a lot of typing and preventing typos. For example, we have a program in our BaseRobot class called "driveForDistance" and there are several parameters that can be used. A line of code might look like this:
+Snippets are an awesome way to save a lot of typing and preventing typos. For example, we have an instance method in our BaseRobot class called "driveForDistance" and there are several parameters that can be used. A line of code running that method might look like this:
 
 `br.driveForDistance(100)`
 
-Because we use this function so much, we all know the 100 is the distance in millimeters, but admittedly this isn't very clear. And there are still other options that can be entered. Here's another possible line of code:
+Because we use this method so much, we all know the 100 in the example is the distance in millimeters, but admittedly this isn't very clear way of calling this method. And there are still other options that can be entered. Here's another example, but better written, line of code:
 
 `br.driveForDistance(speedPct=20, distance=40, then=Stop.NONE, wait=true)`
 
-All of those parameters are important, and there are a lot of opportunities for typos. So is there anything that can be done to save some typing? VS Code snippets are the solution. Snippets allow us to program a prefix character sequence, and whenever that is typed, VS Code will use intellisense to popup an option to use the snippet. If the user chooses the nippet, it will replace the prefix sequence with some assigned text, and it will place the cursor where it needs to be, and even enable the user to just press tab to get to the next needed curson place. Snippets are saved in the VS Code Profile, so they are NOT saved in the .vscode folder. That means the update process is a little more manual, but it isn't too difficult. But first I will explain the snippet in a little more detail.
+All of those parameters are important, but there are a lot of opportunities for typos. So is there anything that can be done to save some typing? VS Code snippets are the solution. Snippets allow us to program a prefix character sequence, and whenever that is typed, VS Code will use intellisense to popup an option to use the snippet. If the user chooses the nippet, it will replace the prefix sequence with some assigned text, and it will place the cursor where it needs to be, and even enable the user to just press tab to get to the next needed cursor place. Snippets are saved in the VS Code Profile, so they are NOT saved in the .vscode folder. That means the update process is a little more manual, but it isn't too difficult. But first I will explain the snippet in a little more detail.
 
 For example, we have the following snippet programmed
 ```json
@@ -32,6 +32,8 @@ And here is what it looks like after selecting the snippet
 
 The cursor is right where the red squiggle underline is (VS code is complaining that there is an error because nothing has been entered yet).
 
+## Getting started with Snippets for FLL Teams
+If you have method names that are the same as ours, you could just use our profile. But this might be a good example of a place where it might be better for you to just create your own snippets and save them to a profile. Or maybe not use snippets at all, which is perfectly OK.
 
 ## Updating snippets
 Snippets are not saved in the .vscode folder. Instead, they are saved in the profile. We keep a copy of the profile saved in the repo, so it is available on each laptop, but just having the profile saved is not enough to activate that profile. You can view and update profiles by clicking on the gear icon in the lower left of the VS Code screen. From there you can click on "Profile" and then "Profiles" (your exact wording may be different depending on if you have an active profile or not).
