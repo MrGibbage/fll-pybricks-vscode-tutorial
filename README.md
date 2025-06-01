@@ -27,12 +27,19 @@ Convinced? Think you and your team are ready for this?
 
 ## Goals/Requirements
 - [ ] Uses Python
-- [ ] Uses Pybricks (OK, is using pybricks a goal or a solution? It goes both ways for us, so I am listing it as a goal)
-- [ ] Enables code sharing via GitHub
-- [ ] Enables code editing using VS Code
+- [ ] Easy code sharing
+- [ ] "Real" Integrated Development Environment
 - [ ] Enables master program
 - [ ] Robot performance should be similar to stock Lego firmware
 - [ ] All team member laptops should be set up the same way with a repeatable, documented process. While this goal should theoreticaly be possible with any solution, the goal is to keep it simple, and in a way such that if we need to update something in the setup for the laptops, it is as automatic as possible
+
+## Proposed Solution
+- [ ] Pybricks
+- [ ] Enables code sharing via GitHub
+- [ ] VS Code
+- [ ] Master program will work
+- [ ] Robot performance will be similar to stock Lego firmware
+- [ ] All team member laptops will indeed be set up the same way with a repeatable, documented process.
 
 ## What is needed
 To get started, you'll need these things:
