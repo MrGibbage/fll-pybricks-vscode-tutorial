@@ -48,6 +48,9 @@ To get started, you'll need these things:
 * Software and user accounts described below. Don't worry, everything is FREE.
 * A coach with ownership rights for the team repository on GitHub. The coach will invite collaborators (team members) to be able to edit the files in the repository
 
+## Pybricks vs the built-in Spike python
+First, I never used the official Lego Spike python, other than some simple tests. Maybe it can meet all of our goals/requirements. But with my quick tests, I didn't see an easy way to have a master class where we could share methods among the team members. I also didn't see how we'd be able to get all of our code on one laptop. I also felt the official Spike python development software lacking certain features like intellisense and code completion. All of these really led me to think it wasn't an option for us.
+
 ## Steps
 1. [Set Up Coach and team member accounts on GitHub](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-accounts.md)
 2. Install software on a laptop (coaches and team members)
