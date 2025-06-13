@@ -43,6 +43,8 @@ This is the current extensions.json file:
 
 "ms-python.debugpy": needed for python
 
+"tomoki1207.pdf": For viewing pdf files such as season files for FLL
+
 "SkipMorrow.vs-code-keybindings-for-pybricks": extension that I wrote with some specific keybindings. See [update keybindings](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-keybindings.md) for more info.
 
 [Next: How to update Tasks](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-tasks.md)
