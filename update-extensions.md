@@ -22,6 +22,7 @@ This is the current extensions.json file:
 		"ms-python.vscode-pylance",
 		"ms-python.python",
 		"ms-python.debugpy",
+		"tomoki1207.pdf",
 		"SkipMorrow.vs-code-keybindings-for-pybricks"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
