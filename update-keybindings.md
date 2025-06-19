@@ -4,10 +4,10 @@
 
 Keyboard shortcuts, or keybindings, make life a lot easier in VS Code. You probably already know some of the more famous ones like ctrl-c, ctrl-x, and ctrl-v for copy, cut, and paste, and maybe even ctrl-s for save, but in VS Code, there are many, MANY more keyboard shortcuts. And of course, they are all configurable. What we would like to do is set up our laptops such that the team members can quickly run their code on their robots. I have chosen a combination of keybindings centered around ctrl-L ("L" for "Launch")
 
-- Ctrl-l: (Task) Run on my robot (runs the currently open program on my robot)
-- Ctrl-alt-l: (Task) Run on alt robot (runs the currently open program on an alternative selected robot)
-- Ctrl-shift-l: (Task) Run master program on my robot (runs the master program on my robot)
-- Ctrl-shift-alt-l: (Task) Run master program on alt robot (runs the master program on an alternative selected robot)
+- Ctrl-L: (Task) Run on my robot (runs the currently open program on my robot)
+- Ctrl-alt-L: (Task) Run on alt robot (runs the currently open program on an alternative selected robot)
+- Ctrl-shift-L: (Task) Run master program on my robot (runs the master program on my robot)
+- Ctrl-shift-alt-L: (Task) Run master program on alt robot (runs the master program on an alternative selected robot)
 
 I also like these keybindings because while they were already in use by VS Code, they were for things I never used, and I never expected the team members to need. So you may want to consider that before using our keybindings.
 
