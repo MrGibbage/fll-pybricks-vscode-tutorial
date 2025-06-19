@@ -1,7 +1,7 @@
 # Tasks
 
 ## Explained
-Tasks in VS Code are used to integrate with external tools and programs. In this case, we want to be able to easily run our code on the robots using the pybricksdev.exe program. You could run this manually instead of configuring it with tasks, but that seemed like it would be too much of a challenege for the middle school kids. Once the tasks are written, they can easily be run with the "command pallete", which you normally access with ctrl-shift-P, or even better, you can run them with keybindings, so you can run your program on the robot just by pressing ctrl-l (that's "L", for "launch". I came up with that).
+Tasks in VS Code are used to integrate with external tools and programs. In this case, we want to be able to easily run our code on the robots using the pybricksdev.exe program. You could run this manually instead of configuring it with tasks, but that seemed like it would be too much of a challenege for the middle school kids. Once the tasks are written, they can easily be run with the "command pallete", which you normally access with ctrl-shift-P. Even better, you can run them with keybindings. For example, we have configured keybindings to run the current open program on "my" robot just by pressing ctrl-l (that's "L", for "launch"). We have instructions for configuring keybindings [here]()
 
 ## tasks.json
 In the .vscode folder there is a file "tasks.json" that contains all of the tasks. I mentioned one task earlier that does the automatic pull from github whenever the folder is opened. There are four other tasks in there:
