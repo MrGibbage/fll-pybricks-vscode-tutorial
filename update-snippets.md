@@ -36,7 +36,7 @@ The cursor is right where the red squiggle underline is (VS code is complaining 
 If you have method names that are the same as ours, you could just use our profile. But this might be a good example of a place where it might be better for you to just create your own snippets and save them to a profile. Or maybe not use snippets at all, which is perfectly OK.
 
 ## Updating snippets
-Snippets are not saved in the .vscode folder. Instead, they are saved in the profile. We keep a copy of the profile saved in the repo, so it is available on each laptop, but just having the profile saved is not enough to activate that profile. You can view and update profiles by clicking on the gear icon in the lower left of the VS Code screen. From there you can click on "Profile" and then "Profiles" (your exact wording may be different depending on if you have an active profile or not).
+Snippets are not saved in the .vscode folder. Instead, they are saved in the profile. We keep a copy of the profile saved in the repo, so it is available on each laptop, but just having the profile saved is not enough to activate that profile. You can view and update profiles by clicking on the gear icon in the lower left of the VS Code screen. Note that if you have already activated a profile, that profile may have a special icon. We use a robot icon, so we don't have a gear icon--it's a robot instead. In any case, it should be the most lower-left icon on your screen. From there you can click on "Profile" and then "Profiles" (your exact wording may be different depending on if you have an active profile or not).
 
 ![image](https://github.com/user-attachments/assets/dd6cddad-96fe-4be5-b3c7-f4658f9d0d83)
 
