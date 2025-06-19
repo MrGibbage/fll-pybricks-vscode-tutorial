@@ -51,6 +51,52 @@ To get started, you'll need these things:
 ## Pybricks vs the built-in Spike python
 First, I never used the official Lego Spike python, other than some simple tests. Maybe it can meet all of our goals/requirements. But with my quick tests, I didn't see an easy way to have a master class where we could share methods among the team members. I also didn't see how we'd be able to get all of our code on one laptop. I also felt the official Spike python development software lacking certain features like intellisense and code completion. All of these really led me to think it wasn't an option for us.
 
+## Is all of this necessary?
+Short answer is no, all of this is not necessary. If you want to just use pybricks, VS Code and Github, you could do it in a couple of minutes. Obviously you have to have VS Code installed, and a repo to store your code at Github (and if you don't need Github, you can skip that too). You will then have to pip install pybricks and pybricksdev
+```bash
+pip install pybricks
+pip install pybricksdev
+```
+
+Then write a simple pybricks program, such as
+
+```python
+from pybricks.pupdevices import Motor
+from pybricks.parameters import Port, Direction
+from pybricks.robotics import DriveBase
+
+# Initialize both motors. In this example, the motor on the
+# left must turn counterclockwise to make the robot go forward.
+left_motor = Motor(Port.A, Direction.COUNTERCLOCKWISE)
+right_motor = Motor(Port.B)
+
+# Initialize the drive base. In this example, the wheel diameter is 56mm.
+# The distance between the two wheel-ground contact points is 112mm.
+drive_base = DriveBase(left_motor, right_motor, wheel_diameter=56, axle_track=112)
+
+# Optionally, uncomment the line below to use the gyro for improved accuracy.
+# drive_base.use_gyro(True)
+
+# Drive forward by 500mm (half a meter).
+drive_base.straight(500)
+
+# Turn around clockwise by 180 degrees.
+drive_base.turn(180)
+
+# Drive forward again to get back to the start.
+drive_base.straight(500)
+
+# Turn around counterclockwise.
+drive_base.turn(-180)
+```
+And finally upload it to your Spike Hub
+
+```bash
+pybricksdev.exe run ble --name ROBOTNAME sample_mission.py
+```
+
+That should get your robot moving. But if you want to automate as much of this as possible, and keep things simple for a team of middle school kids, then you might want to consider some of the steps below.
+
 ## Steps
 1. [Set Up Coach and team member accounts on GitHub](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-accounts.md)
 2. Install software on a laptop (coaches and team members)
