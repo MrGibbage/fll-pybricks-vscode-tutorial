@@ -42,24 +42,3 @@ When the installation is done, we are done installing software. Next we will set
 ![Screenshot 2025-02-02 175807](https://github.com/user-attachments/assets/4716417b-5639-41d7-bfaf-82d820fc10e3)
 
 [Next: Create a repository and invite collaborators](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-season-repo.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
