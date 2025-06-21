@@ -18,6 +18,7 @@ Using the laptop you are setting up, go to the github page for your repo. Make s
 
 Get the link to the repo and click on the copy icon to copy the link to the clipboard. You will need this link for the next step. Do not close the web browser or close the tab to the repo. Just keep it all open.
 
+
 ## Step 2. Clone the repo in VS Code
 
 Start VS code on the laptop. If it was already running, exit out and start VS code again. Hopefully you see this screen:
@@ -54,55 +55,40 @@ If you chose to install the optional git autoconfig extension when you set up VS
 
 There you go! You have cloned the repo. All of the code is now on your local laptop, exactly like it was in the repo.
 
+
 ## Step 3. Create a python virtual environment
 
 Before actually writing code though, you should create a python virtual environment. Virtual environments are a wonderful way of setting up a python environment specifically for each laptop and keep it separate from any other python development projects you have on the laptop.
 
+Open a terminal window by typing ctrl-shift-` (hold down the ctrl and shift keys while tapping on the back-tick, which is the key to the left of the number 1 key at the top of your keyboard).
 
-In VS Code, type ctrl-shift-P to bring up the command pallete. The items at the top of the list will always be the most recently run commands, so your list will look different.
+![image](https://github.com/user-attachments/assets/dd93a880-bf3d-434f-acea-7cb57a7d8462)
 
-![Screenshot 2025-02-16 183225](https://github.com/user-attachments/assets/19121f94-ac71-4c8f-864f-1524c79e84a7)
+Type `uv sync` and press enter. You'll see some text scroll by and hopefully no errors.
 
+![image](https://github.com/user-attachments/assets/43728f85-75fa-43ba-8726-12d9428ac608)
 
-Start typing "python" and you will see the list of commands will filter. Select the one that says "Python: Create Environment..."
+In particular, we should see pybricks and pybricksdev near the middle of the list. The virtual environment is created.
 
-![Screenshot 2025-02-16 183409](https://github.com/user-attachments/assets/9167c401-1fc5-4a10-961f-3730e712259c)
+Next, we need to activate the virtual environment. Down in the lower right, click on the python environment tag
 
+![image](https://github.com/user-attachments/assets/197794ff-e23a-4a6c-8d7e-cfc5009e844f)
 
-Choose "venv". Press "enter"
+Up at the top of the screen with the command pallete, click on the new (and probably recommended) environment.
 
-![Screenshot 2025-02-16 183527](https://github.com/user-attachments/assets/6902b859-c5fe-4c8d-96c2-90068b8ad9fe)
+![image](https://github.com/user-attachments/assets/79bb0768-9ec2-40f3-bb3d-96a531d7f7d6)
 
+Notice the new tag at the bottom shows the correct environment is selected. Click on the trash can to kill the terminal.
 
-You should have a Global python installation. Choose that.
+![image](https://github.com/user-attachments/assets/53cca446-fbb5-43f9-83dc-c4d35d691a53)
 
-![Screenshot 2025-02-16 183624](https://github.com/user-attachments/assets/b63df736-8a3e-45de-b3d5-a67bf4c3a5a9)
+Now open the terminal one more time with ctrl-shift-`. Notice that the terminal prompt shows the activated environment in parenthesis at the beginning.
 
-
-If you watch quickly in the lower right corner, you will see the environment being created;
-
-![Screenshot 2025-02-16 183830](https://github.com/user-attachments/assets/889b621c-06f3-438f-9549-e2afd655426e)
-
-![Screenshot 2025-02-16 183842](https://github.com/user-attachments/assets/733224ed-3262-45d2-b8b3-121d3ef8d2ac)
+![image](https://github.com/user-attachments/assets/1941a7ba-de84-456a-aba8-b4802b757b1a)
 
 
-Next we need to install any python packages that are needed. For sure that will mean installing `pybricks` and `pybricksdev`. I also include the black python formatter. A nice feature for python is that you can put all of the requirements in a requirements.txt file and it is then easy to install them all at once. Otherwise you just have to open a new terminal and run a couple of commands
-
-In VS Code, press ctrl-\` That's ctrl plus the "tick mark", which is the key to the left of the number 1 (shared with the tilde ~). When you press ctrl-\`, a terminal should open up at the bottom of your screen. If everything is working, you should have a cmd shell or a PowerShell terminal (whichever you have set as default) and it the command prompt should start with (.venv), like below. Here I have opened a cmd shell, but I can also click on the drop down and open a PowerShell terminal as well. You can also see that the prompt starts with (.venv).
-
-![Screenshot 2025-02-17 142314](https://github.com/user-attachments/assets/a67f6b48-3e28-43b7-8a05-b5e1468c1c36)
-
-Now all you have to do is run these two commands:
-```
-pip install pybricks
-pip install pybricksdev
-```
-
-If you had a requirements.txt, sometimes when you create the virtual environment, VS code will ask if you want to install the packages in requirements.txt, but sometimes it doesn't. Anyway, if you do have a requirements.txt (our basic repo does), you can install everything all at once with `pip install -r requirements.txt`.
-
-## Test push update to GitHub
+## Step 4. Test push update to GitHub
 The last thing we will do is a test push to GitHub. You did keep that GitHub window open like I said in step 1, right? On the left hand side of the VS Code window, you should see a list of files. If you don't see the list of files, click on the top icon in the toolbar. Then click on the "New File..." icon. Give your file a name such as test, and type something in it like "hello world". Press ctrl-s to save it. 
-
 
 ![Screenshot 2025-02-17 143403](https://github.com/user-attachments/assets/2d40f234-8f6a-42da-a6c4-faaf7b0cafea)
 
