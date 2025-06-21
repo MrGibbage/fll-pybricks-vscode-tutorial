@@ -9,4 +9,4 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 
 After cloning a repo, we will run `uv sync` to set up the python environment
 
-Next: 
+[Next: Create a repository and invite collaborators](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-season-repo.md)
