@@ -64,9 +64,11 @@ Open a terminal window by typing ctrl-shift-` (hold down the ctrl and shift keys
 
 ![image](https://github.com/user-attachments/assets/dd93a880-bf3d-434f-acea-7cb57a7d8462)
 
+
 Type `uv sync` and press enter. You'll see some text scroll by and hopefully no errors.
 
 ![image](https://github.com/user-attachments/assets/43728f85-75fa-43ba-8726-12d9428ac608)
+
 
 In particular, we should see pybricks and pybricksdev near the middle of the list. The virtual environment is created.
 
@@ -74,13 +76,16 @@ Next, we need to activate the virtual environment. Down in the lower right, clic
 
 ![image](https://github.com/user-attachments/assets/197794ff-e23a-4a6c-8d7e-cfc5009e844f)
 
+
 Up at the top of the screen with the command pallete, click on the new (and probably recommended) environment.
 
 ![image](https://github.com/user-attachments/assets/79bb0768-9ec2-40f3-bb3d-96a531d7f7d6)
 
+
 Notice the new tag at the bottom shows the correct environment is selected. Click on the trash can to kill the terminal.
 
 ![image](https://github.com/user-attachments/assets/53cca446-fbb5-43f9-83dc-c4d35d691a53)
+
 
 Now open the terminal one more time with ctrl-shift-`. Notice that the terminal prompt shows the activated environment in parenthesis at the beginning.
 
