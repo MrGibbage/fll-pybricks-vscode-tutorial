@@ -103,6 +103,7 @@ That should get your robot moving. But if you want to automate as much of this a
    - [VS Code](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-vs-code.md)
    - [Git (for Windows)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-git.md)
    - [Python](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-python.md)
+   - [UV](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-uv.md)
    - [Spike V3 software](https://education.lego.com/en-us/downloads/spike-app/software/) (Optional, no instructions in this tutorial) 
    - [Bricklink stud.io](https://www.bricklink.com/v3/studio/download.page) (Optional, no instructions in this tutorial) 
 3. [Create a GitHub repository for the season (coach)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-season-repo.md)
