@@ -33,25 +33,9 @@ And here is what it looks like after selecting the snippet
 The cursor is right where the red squiggle underline is (VS code is complaining that there is an error because nothing has been entered yet).
 
 ## Getting started with Snippets for FLL Teams
-If you have method names that are the same as ours, you could just use our profile. But this might be a good example of a place where it might be better for you to just create your own snippets and save them to a profile. Or maybe not use snippets at all, which is perfectly OK.
+If you have method names that are the same as ours, you could just use our snippets configuration file. But this might be a good example of a place where it might be better for you to just create your own snippets. Or maybe not use snippets at all, which is perfectly OK.
 
 ## Updating snippets
-Snippets are not saved in the .vscode folder. Instead, they are saved in the profile. We keep a copy of the profile saved in the repo, so it is available on each laptop, but just having the profile saved is not enough to activate that profile. You can view and update profiles by clicking on the gear icon in the lower left of the VS Code screen. Note that if you have already activated a profile, that profile may have a special icon. We use a robot icon, so we don't have a gear icon--it's a robot instead. In any case, it should be the most lower-left icon on your screen. From there you can click on "Profile" and then "Profiles" (your exact wording may be different depending on if you have an active profile or not).
-
-![image](https://github.com/user-attachments/assets/dd6cddad-96fe-4be5-b3c7-f4658f9d0d83)
-
-From there, click on New Profile, and then Import profile
-
-![image](https://github.com/user-attachments/assets/b02dca6b-7363-4ee8-b2a5-07c508779fbb)
-
-Since we have the profile saved in the repo, it is just a matter of browsing to that profile file.
-
-You then have the option of selecting what parts of the profile you want to use.
-
-![image](https://github.com/user-attachments/assets/f80c69ae-0edc-4a12-8de4-7432a8302e12)
-
-We are doing this primarily for the snippets, so be sure to select that option. You can also choose to enable the extensions here, and they will be automatically installed, which is nice. But I usually manage the extensions through the extensions.json file, as explained [here](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-extensions.md).
-
-I do have a copy of our profile in the basic repository. It being in the repo doesn't do anything to your laptop settings. You have to manually import it using the steps above before they will take place. Or you can just edit your own snippets, add them to a profile then share that with the team members.
+Snippets are saved in the .vscode folder so it is updated when a team member pulls from GitHub.
 
 [Next: How to update Keybindings](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-keybindings.md)
