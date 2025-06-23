@@ -16,7 +16,7 @@ This table defines where the configuration is stored for each item and how that 
 | Team code     | Github repo    | git pull         |
 | Extensions    | .vscode folder | git pull/ Manual |
 | Tasks         | .vscode folder | git pull         |
-| Snippets      | Profile        | git pull/ Manual |
+| Snippets      | .vscode folder | git pull         |
 | Keybindings   | Extension      | Update Extension |
 | Settings      | .vscode folder | git pull         |
 | Robot name    | Environment    | Manual           |
