@@ -108,7 +108,7 @@ That should get your robot moving. But if you want to automate as much of this a
    - [Bricklink stud.io](https://www.bricklink.com/v3/studio/download.page) (Optional, no instructions in this tutorial) 
 3. [Create a GitHub repository for the season (coach)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-season-repo.md)
 4. [Configure team member laptops](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/configure-laptops.md)
-   - [Clone the team repository](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/clone-push.md)
+   - [Clone the team repository and create a python virtual environment](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/clone-push.md)
    - [Updating Team mission code](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-team-mission-code.md)
    - [VS Code Extensions](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-extensions.md)
    - [Tasks](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-tasks.md)
