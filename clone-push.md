@@ -107,4 +107,6 @@ Now click on that third icon with the "1". We need to prepare the "commit" first
 
 At this point you may get a message that you need to authenticate with GitHub. Just click through and follow the instructions. If that all works, then you are fully connected to GitHub.
 
+Finally, you may get some type checking warnings in VS Code, alerting you to some problems when using the pybricks Axis and Color classes. Just use the special comment `# type: ignore` to make VS Code (or more accurately, Pylance) ignore the error.
+
 [Next: Updating Team mission code (pulls and pushes)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-team-mission-code.md)
