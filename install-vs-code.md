@@ -34,24 +34,5 @@ You should see something like this
 
 ![2025-02-02](https://github.com/user-attachments/assets/b0976d6e-d7c5-42f3-81ef-f6e64024ebd0)
 
-## VS Code Extensions
-The coaches and the team members will need some extensions to make the whole experience better. Click on the fourth icon on the left side (it looks like four blocks, but one block is pulled out). Or you can press ctrl+shift+X
-
-![Screenshot 2025-02-02 121453](https://github.com/user-attachments/assets/1eaa603b-f33e-4fc1-af15-b8fbcb958064)
-
-Coaches and team members should install the python extension, which will also install the pylance extension. The only other *required* extension at this time is GitHub Pull Requests (by GitHub). Use the search bar above the list of extensions to look for "Github" and select it from the list.
-
-![Screenshot 2025-02-16 101911](https://github.com/user-attachments/assets/d52ff211-904a-4374-b764-e5a15f5134d4)
-
-There are some other extensions that coaches and certain team members may find useful, depending on their roles. Read the descriptions for each of these and decide if you want or need them.
-* GitLens — Git supercharged (by GitKraken)
-* Live Share (by Microsoft)
-* TODO Tree (by Gruntfuggly)
-* Codeium: AI Coding Autocomplete and Chat for Python, Javascript, Typescript, Java, Go, and more (by Codeium) **OR** GitHub copilot, Google Gemini, and several others. This tutorial will not address using AI, so that is up to you to figure out. I can tell you there are some good ones and I really like having them as an option.
-* Black Formatter (by Microsoft) <-- Strongly recommend for coaches and team members
-* Error Lens (by Alexander) <-- Strongly recommend for coaches and team members
-* git-autoconfig (by shyykoserhiy) <-- strongly recommend for coaches and team members
-
-Once you have all of the extensions installed, we'll be done with VS Code for now. Next we will install git for windows.
 
 [Next: Install Git for Windows](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-git.md)
