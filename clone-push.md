@@ -92,6 +92,29 @@ Now open the terminal one more time with ctrl-shift-`. Notice that the terminal 
 ![image](https://github.com/user-attachments/assets/1941a7ba-de84-456a-aba8-b4802b757b1a)
 
 
+## VS Code Extensions
+If you have your repo set up like ours, you should get prompted to install some VS Code extensions at this point. We keep a list of recommended extensions in our .vscode folder, and VS Code will recognize that when cloning our repo. The coaches and the team members will use those extensions to make the whole experience better. You can just click "Yes" to install the recommended extensions, but if you ever want to install something else, here's how you do it. If you clicked "Yes" and the extensions are installing, jump down to Step 4.
+
+### Manually installing extensions in VS Code
+Click on the fourth icon on the left side (it looks like four blocks, but one block is pulled out). Or you can press ctrl+shift+X
+
+![Screenshot 2025-02-02 121453](https://github.com/user-attachments/assets/1eaa603b-f33e-4fc1-af15-b8fbcb958064)
+
+Coaches and team members should install the python extension, which will also install the pylance extension. The only other *required* extension at this time is GitHub Pull Requests (by GitHub). Use the search bar above the list of extensions to look for "Github" and select it from the list.
+
+![Screenshot 2025-02-16 101911](https://github.com/user-attachments/assets/d52ff211-904a-4374-b764-e5a15f5134d4)
+
+There are some other extensions that coaches and certain team members may find useful, depending on their roles. Read the descriptions for each of these and decide if you want or need them.
+* GitLens — Git supercharged (by GitKraken)
+* Live Share (by Microsoft)
+* TODO Tree (by Gruntfuggly)
+* Codeium: AI Coding Autocomplete and Chat for Python, Javascript, Typescript, Java, Go, and more (by Codeium) **OR** GitHub copilot, Google Gemini, and several others. This tutorial will not address using AI, so that is up to you to figure out. I can tell you there are some good ones and I really like having them as an option.
+* Black Formatter (by Microsoft) <-- Strongly recommend for coaches and team members
+* Error Lens (by Alexander) <-- Strongly recommend for coaches and team members
+* git-autoconfig (by shyykoserhiy) <-- strongly recommend for coaches and team members
+
+Once you have all of the extensions installed, we'll be done with VS Code for now. Next we will install git for windows.
+
 ## Step 4. Test push update to GitHub
 The last thing we will do is a test push to GitHub. You did keep that GitHub window open like I said in step 1, right? On the left hand side of the VS Code window, you should see a list of files. If you don't see the list of files, click on the top icon in the toolbar. Then click on the "New File..." icon. Give your file a name such as test, and type something in it like "hello world". Press ctrl-s to save it. 
 
