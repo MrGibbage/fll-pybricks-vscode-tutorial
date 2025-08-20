@@ -48,7 +48,7 @@ Here is the "Run on my robot" code. All of the others are basically the same:
             }
         },
 ```
-The problemMatcher and presentation secions just make the user interface a little smoother, but the main thing are the "command" and "args" settings. The "command" finds and runs pybricksdev.exe, and the "args" are the command line arguments that pybricksdev.exe expects. Of note "${env:robotName}" finds the environment variable called "robotName" and gets the value for that setting. See [how to update the robotName environment variable](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-env-variable.md) for more information.
+The problemMatcher and presentation sections just make the user interface a little smoother, but the main thing are the "command" and "args" settings. The "command" finds and runs pybricksdev.exe, and the "args" are the command line arguments that pybricksdev.exe expects. Of note "${env:robotName}" finds the environment variable called "robotName" and gets the value for that setting. See [how to update the robotName environment variable](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-env-variable.md) for more information.
 
 
 There is also a section where you will save the names of all of your robots. This is so it can populate the drop down list of robots when using the "alt" options
