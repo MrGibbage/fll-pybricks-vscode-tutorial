@@ -6,6 +6,8 @@
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
+Using the PowerShell method above will install a uv binary into the current user's home directory. This may not be ideal for shared domain laptops. In that case, use pip to install uv in your global python installation (not in a virtual environment).
+
 ```Python
 pip install uv
 ```
