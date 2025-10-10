@@ -70,4 +70,4 @@ You can see a couple of the other settings we have configured in our settings.js
 
 The settings.json file is saved in .vscode in the repo so that every laptop will have the same settings. If you make changes to it, they will automatically be updated on all laptops the next time they do a pull.
 
-[Next: How to update environment variables](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-env-variable.md)
+[Next: How to install pybricks](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-pybricks.md))
