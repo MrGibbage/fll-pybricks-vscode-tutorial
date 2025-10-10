@@ -23,7 +23,7 @@ Here is the "Run on my robot" code. All of the others are basically the same:
                 "run",
                 "ble",
                 "--name",
-                "${env:robotName}",
+                "${config:fllRobotName}",
                 "${file}"
             ],
             "problemMatcher": {
