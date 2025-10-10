@@ -1,7 +1,13 @@
 # Tasks
 
 ## Explained
-Tasks in VS Code are used to integrate with external tools and programs. In this case, we want to be able to easily run our code on the robots using the pybricksdev.exe program. You could run this manually instead of configuring it with tasks, but that seemed like it would be too much of a challenege for the middle school kids. Once the tasks are written, they can easily be run with the "command pallete", which you normally access with ctrl-shift-P. Even better, you can run them with keybindings. For example, we have configured keybindings to run the current open program on "my" robot just by pressing ctrl-l (that's "L", for "launch"). We have instructions for configuring keybindings [here](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-keybindings.md)
+Tasks in VS Code are used to integrate with external tools and programs. In this case, we want to be able to easily run our code on the robots using the pybricksdev.exe program. You could run this manually instead of configuring it with tasks, but that seemed like it would be too much of a challenege for the middle school kids. Once the tasks are written, they can easily be run with the "command pallete", which you normally access with ctrl-shift-P. Even better, you can run them with keybindings. For example, we have configured keybindings to run the current open program on "my" robot just by pressing ctrl-l (that's "L", for "launch"). We have instructions for configuring keybindings [here](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-keybindings.md). Note that for this to work, you must configure the name of YOUR robot in your user settings. Open the Command Pallette (Ctrl-Shift-P" and start typing "pref". Select "Preferences: Open User Settings (JSON)" and add this single line somewhere after the first opening curly brace
+
+```json
+"fllRobotName": "the robot name",
+```
+
+where "the robot name" is the name of your robot which was defined when you installed pybricks on your hub. Strongly recommend using no special characters or spaces in your robot name.
 
 ## tasks.json
 In the .vscode folder there is a file "tasks.json" that contains all of the tasks. I mentioned one task earlier that does the automatic pull from github whenever the folder is opened. There are four other tasks in there:
