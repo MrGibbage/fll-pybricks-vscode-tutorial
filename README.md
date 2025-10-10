@@ -44,7 +44,7 @@ Convinced? Think you and your team are ready for this?
 ## What is needed
 To get started, you'll need these things:
 * A lego hub such as EV3 or Spike Prime. Our team uses Spike Primes, so this tutorial will be Spike Prime-focused. But I think the steps are pretty much the same for EV3s if you are using them.
-* Laptop(s). I use Windows, but I think it will all work on a Mac. I cannot confirm. You will need admin access to the laptop because you will be installing software on it.
+* Laptop(s). I use Windows, however this has been confirmed to work on Unix and Mac OS (thank you @amcnabb). It absolutely will not work on Chromebooks (bluetooth issues). You will need admin access to the laptop because you will be installing software on it.
 * Software and user accounts described below. Don't worry, everything is FREE.
 * A coach with ownership rights for the team repository on GitHub. The coach will invite collaborators (team members) to be able to edit the files in the repository
 
