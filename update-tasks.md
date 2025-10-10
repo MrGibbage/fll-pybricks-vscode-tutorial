@@ -11,7 +11,7 @@ In the .vscode folder there is a file "tasks.json" that contains all of the task
 - Run master program on my robot (runs the master program on my robot)
 - Run master program on alt robot (runs the master program on an alternative selected robot)
 
-Here is the "Run on my robot" code. All of the others are basically the same:
+Here is the "Run on my robot" code. All of the others are basically the same (see a complete tasks.json file here: https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/tasks.json):
 
 ```json
 "tasks": [
