@@ -115,7 +115,6 @@ That should get your robot moving. But if you want to automate as much of this a
    - [Snippets](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-snippets.md)
    - [Keybindings](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-keybindings.md)
    - [VS Code Settings](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-settings.md)
-   - [Environment Variables](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-env-variable.md)
 7. [Install pybricks on your robot](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-pybricks.md)
 8. TODO Test running a program on the robot
 9. [Optional: What is the .vscode folder?](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/dot-vscode-folder.md)
