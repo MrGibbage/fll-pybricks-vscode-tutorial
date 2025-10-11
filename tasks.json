@@ -4,7 +4,10 @@
         {
             "label": "Run on my robot",
             "type": "shell",
-            "command": "${workspaceFolder}/.venv/Scripts/pybricksdev.exe",
+            "command": "${workspaceFolder}/.venv/bin/pybricksdev",
+            "windows": {
+                "command": "${workspaceFolder}/.venv/Scripts/pybricksdev.exe"
+            },
             "args": [
                 "run",
                 "ble",
@@ -43,7 +46,10 @@
         {
             "label": "Run master_program.py on my robot",
             "type": "shell",
-            "command": "${workspaceFolder}/.venv/Scripts/pybricksdev.exe",
+            "command": "${workspaceFolder}/.venv/bin/pybricksdev",
+            "windows": {
+                "command": "${workspaceFolder}/.venv/Scripts/pybricksdev.exe"
+            },
             "args": [
                 "run",
                 "ble",
@@ -99,7 +105,10 @@
         {
             "label": "Run on alt robot",
             "type": "shell",
-            "command": "${workspaceFolder}/.venv/Scripts/pybricksdev.exe",
+            "command": "${workspaceFolder}/.venv/bin/pybricksdev",
+            "windows": {
+                "command": "${workspaceFolder}/.venv/Scripts/pybricksdev.exe"
+            },
             "args": [
                 "run",
                 "ble",
@@ -138,7 +147,10 @@
         {
             "label": "Run master_program.py on alt robot",
             "type": "shell",
-            "command": "${workspaceFolder}/.venv/Scripts/pybricksdev.exe",
+            "command": "${workspaceFolder}/.venv/bin/pybricksdev",
+            "windows": {
+                "command": "${workspaceFolder}/.venv/Scripts/pybricksdev.exe"
+            },
             "args": [
                 "run",
                 "ble",
