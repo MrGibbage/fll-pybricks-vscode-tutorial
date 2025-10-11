@@ -38,4 +38,4 @@ If you have method names that are the same as ours, you could just use our snipp
 ## Updating snippets
 Snippets are saved in the .vscode folder so it is updated when a team member pulls from GitHub.
 
-[Next: How to update Keybindings](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-keybindings.md)
+[Next: How to update Keybindings](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/md/update-keybindings.md)

@@ -1,5 +1,5 @@
 # Clone the Team Repo
-You will need a copy of the repo on each laptop. Cloning copies the existing code in a repo into a folder on your local computer. Then, as team members edit their code, they will then "push" those changes to the team repo on GitHub. Then in oder for everyone to have a copy of the most current code, each team member will "pull" the updates from GitHub. Most of these steps are automated with our setup [which you can learn here](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-team-mission-code.md).
+You will need a copy of the repo on each laptop. Cloning copies the existing code in a repo into a folder on your local computer. Then, as team members edit their code, they will then "push" those changes to the team repo on GitHub. Then in oder for everyone to have a copy of the most current code, each team member will "pull" the updates from GitHub. Most of these steps are automated with our setup [which you can learn here](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/md/update-team-mission-code.md).
 
 Steps:
 
@@ -132,4 +132,4 @@ At this point you may get a message that you need to authenticate with GitHub. J
 
 Finally, you may get some type checking warnings in VS Code, alerting you to some problems when using the pybricks Axis and Color classes. Just use the special comment `# type: ignore` to make VS Code (or more accurately, Pylance) ignore the error.
 
-[Next: Updating Team mission code (pulls and pushes)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/update-team-mission-code.md)
+[Next: Updating Team mission code (pulls and pushes)](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/md/update-team-mission-code.md)

@@ -19,7 +19,7 @@ This table defines where the configuration is stored for each item and how that 
 | Snippets      | .vscode folder | git pull         |
 | Keybindings   | Extension      | Update Extension |
 | Settings      | .vscode folder | git pull         |
-| Robot name    | Environment    | Manual           |
+| Robot name    | user setting   | Manual           |
 
 We have a mostly empty repo that is already configured with the settings that will be described in these few steps. That repo is available [here](https://github.com/MrGibbage/pybricks-fll).
 
@@ -30,4 +30,4 @@ Because most of these configurations are saved in the .vscode folder, once you d
 2. Set up the snippets in the profile
 3. Set the environment variable
 
-[Next: Clone a repo](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/clone-push.md)
+[Next: Clone a repo](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/md/blob/main/md/clone-push.md)

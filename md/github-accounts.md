@@ -23,4 +23,4 @@ Done! After we are done installing the software, we will create a repository and
 
 ![9](https://github.com/user-attachments/assets/bf08a83f-f5f4-4772-886e-a4fff7f16da0)
 
-[Next: Install VS Code](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-vs-code.md)
+[Next: Install VS Code](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/md/install-vs-code.md)

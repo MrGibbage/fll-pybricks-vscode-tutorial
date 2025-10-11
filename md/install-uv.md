@@ -16,4 +16,4 @@ If you are creating a new repo, you may want to start with our [pyproject.toml](
 
 After cloning a repo, we will run `uv sync` to set up the python environment
 
-[Next: Create a repository and invite collaborators](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/github-season-repo.md)
+[Next: Create a repository and invite collaborators](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/md/github-season-repo.md)

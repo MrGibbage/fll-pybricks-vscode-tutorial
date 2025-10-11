@@ -35,4 +35,4 @@ You should see something like this
 ![2025-02-02](https://github.com/user-attachments/assets/b0976d6e-d7c5-42f3-81ef-f6e64024ebd0)
 
 
-[Next: Install Git for Windows](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-git.md)
+[Next: Install Git for Windows](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/md/install-git.md)

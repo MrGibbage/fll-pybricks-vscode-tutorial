@@ -1,0 +1,195 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run on my robot",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/pybricksdev.exe",
+            "args": [
+                "run",
+                "ble",
+                "--name",
+                "${env:robotName}",
+                "${file}"
+            ],
+            "problemMatcher": {
+                "owner": "python",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceFolder}"
+                ],
+                "pattern": [
+                    {
+                        "regexp": "^.*File.*\\\"(.*\\.py).*(\\b\\d{1,}\\b)(.*)in.*$",
+                        "file": 1,
+                        "line": 2
+                    },
+                    {
+                        "regexp": "(^.*\\:.*)",
+                        "message": 1
+                    }
+                ]
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": false,
+                "revealProblems": "onProblem"
+            }
+        },
+        {
+            "label": "Run master_program.py on my robot",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/pybricksdev.exe",
+            "args": [
+                "run",
+                "ble",
+                "--name",
+                "${env:robotName}",
+                "master_program.py"
+            ],
+            "problemMatcher": {
+                "owner": "python",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceFolder}"
+                ],
+                "pattern": [
+                    {
+                        "regexp": "^.*File.*\\\"(.*\\.py).*(\\b\\d{1,}\\b)(.*)in.*$",
+                        "file": 1,
+                        "line": 2
+                    },
+                    {
+                        "regexp": "(^.*\\:.*)",
+                        "message": 1
+                    }
+                ]
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": false,
+                "revealProblems": "onProblem"
+            }
+        },
+        {
+            "label": "git pull on startup",
+            "type": "shell",
+            "command": "python ${workspaceFolder}\\.vscode\\gitpull.py",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            },
+            "runOptions": {
+                "runOn": "folderOpen"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run on alt robot",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/pybricksdev.exe",
+            "args": [
+                "run",
+                "ble",
+                "--name",
+                "${input:robotName}",
+                "${file}"
+            ],
+            "problemMatcher": {
+                "owner": "python",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceFolder}"
+                ],
+                "pattern": [
+                    {
+                        "regexp": "^.*File.*\\\"(.*\\.py).*(\\b\\d{1,}\\b)(.*)in.*$",
+                        "file": 1,
+                        "line": 2
+                    },
+                    {
+                        "regexp": "(^.*\\:.*)",
+                        "message": 1
+                    }
+                ]
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": false,
+                "revealProblems": "onProblem"
+            }
+        },
+        {
+            "label": "Run master_program.py on alt robot",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/pybricksdev.exe",
+            "args": [
+                "run",
+                "ble",
+                "--name",
+                "${input:robotName}",
+                "master_program.py"
+            ],
+            "problemMatcher": {
+                "owner": "python",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceFolder}"
+                ],
+                "pattern": [
+                    {
+                        "regexp": "^.*File.*\\\"(.*\\.py).*(\\b\\d{1,}\\b)(.*)in.*$",
+                        "file": 1,
+                        "line": 2
+                    },
+                    {
+                        "regexp": "(^.*\\:.*)",
+                        "message": 1
+                    }
+                ]
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": false,
+                "revealProblems": "onProblem"
+            }
+        }
+    ],
+    "inputs": [
+        {
+            "type": "pickString",
+            "id": "robotName",
+            "description": "Which Robot?",
+            "options": [
+                "BOB",
+                "CURIOSITY",
+                "GABE",
+                "LEROYYY",
+                "MITZVAH",
+                "NOTDECLAN",
+                "OAKS",
+                "PATRIOT",
+                "SUPERNOVA",
+                "TIM",
+                "TIMOTHY"
+            ]
+        }
+    ]
+}

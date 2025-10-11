@@ -1,0 +1,46 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/app-list.json": true,
+        "**/.venv/": true,
+        "**/.vscode/": true,
+        "**/__pycache__/": true,
+        "**/.gitignore": true,
+        "**/.python-version": true,
+        "**/main.py": true,
+        "uv.lock": true,
+        "**/README.md": true,
+        "*.code-profile": true,
+        "base_robot*.py": true,
+        "requirements.txt": true,
+        "pyproject.toml": true,
+        "colorTest.py": true,
+        "master_program.py": true,
+        "battery_test.py": true,
+        "LICENSE": true,
+        "utils.py": true,
+        ".idea/": true,
+        ".mypy_cache": true
+    },
+    "task.allowAutomaticTasks": "on",
+    "git.postCommitCommand": "sync",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "editor.rulers": [
+        80
+    ],
+    "black-formatter.args": [
+        "--line-length",
+        "79"
+    ]
+}

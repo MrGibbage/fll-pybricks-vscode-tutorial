@@ -40,4 +40,4 @@ When done, you can exit out. No need to review the release notes, or run Git Bas
 
 At this point we are done installing Git for Windows. Next we will install python.
 
-[Next: Install Python for Windows](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/install-python.md)
+[Next: Install Python for Windows](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/md/install-python.md)
