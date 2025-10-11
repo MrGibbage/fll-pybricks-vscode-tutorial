@@ -28,6 +28,6 @@ Because most of these configurations are saved in the .vscode folder, once you d
 
 1. Install the keybindings extension, which should have happened if you chose to install all of the recommended extensions anyway, so now there are only two things left to do
 2. Set up the snippets in the profile
-3. Set the environment variable
+3. Set the fllRobotName user setting (Preferences: Open User Settings (JSON))
 
 [Next: Clone a repo](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/md/blob/main/md/clone-push.md)

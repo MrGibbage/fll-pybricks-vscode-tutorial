@@ -31,7 +31,6 @@ If you study that code, you will see that the "runOn" is set to "folderOpen". Th
 
 ## gitpull.py
 ```python
-import os
 import subprocess
 
 import time
@@ -44,21 +43,12 @@ def countdown(seconds):
         time.sleep(1)
         seconds -= 1
 
-robot_name = os.getenv("robotName")
-
-if robot_name:
-    print(f"\033[92mYour robot name is {robot_name}\033[0m")
-else:
-    print(
-        "\033[91mYour robotName environment variable has not been set\033[0m"
-    )
-
 print("git pull in five seconds")
 countdown(5)
 subprocess.run(["git", "pull"])
 ```
 
-There's not a whole lot here, but bascially it checks to see if the robotName environment variable has been set, and if so, prints the value. The weird codes like \033[92m set colors so the printing is in color. Then there is a five second delay and then it performs the git pull.
+The weird codes like \033[92m set colors so the printing is in color. Then there is a five second delay and then it performs the git pull. That's it.
 
 Remember that the kids can do a git pull at any time by going to the "Source Control" in the left had quick menu, and then clicking on the three dot menu and choosing "Pull".
 
