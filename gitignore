@@ -1,0 +1,12 @@
+# This file should be named .gitignore (including the dot)
+# Will not sync these
+
+/.venv/
+/.git/
+__pycache__/
+~*
+
+# will sync .gitiginore 
+!/.gitignore
+/.idea
+/.mypy_cache
