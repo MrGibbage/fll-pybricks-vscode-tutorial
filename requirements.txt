@@ -1,0 +1,7 @@
+# Consider each fall locking the version number to make sure everyone is 
+# on the same version.
+#
+# Use requirements.txt if using venv for the python virtual environment
+#
+pybricks==3.6.1
+pybricksdev==2.0.0

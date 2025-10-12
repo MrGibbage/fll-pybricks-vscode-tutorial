@@ -1,4 +1,4 @@
-# This file should be named .gitignore (including the dot)
+# In an actual working repository, this file should be named .gitignore (including the dot)
 # Will not sync these
 
 /.venv/
@@ -8,5 +8,3 @@ __pycache__/
 
 # will sync .gitiginore 
 !/.gitignore
-/.idea
-/.mypy_cache

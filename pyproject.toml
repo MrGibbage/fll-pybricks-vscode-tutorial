@@ -1,7 +1,7 @@
 [project]
 name = "fll-fall-2025-unearthed"
 version = "0.1.0"
-description = "Add your description here"
+description = "Python working team code for the FLL 2025 Unearthed season"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

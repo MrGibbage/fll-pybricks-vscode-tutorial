@@ -1,1 +1,1 @@
-This directory/folder should be named .vscode (including the dot).
+In an actual working project folder, this directory/folder should be named .vscode (including the dot).
