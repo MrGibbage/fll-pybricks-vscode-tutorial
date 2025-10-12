@@ -117,9 +117,8 @@ That should get your robot moving. But if you want to automate as much of this a
    - [VS Code Settings](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/md/update-settings.md)
 5. [Install pybricks on your robot](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/md/install-pybricks.md)
 6. TODO Test running a program on the robot
-7. [Optional: What is the .vscode folder?](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/md/key-files-folders.md)
+7. [Optional: Key files within the project folder?](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/md/key-files-folders.md)
 8. Other Notes
-   - .gitignore TODO
    - My VS Code extension TODO
 
 [Next: Set Up Coach and team member accounts on GitHub](https://github.com/MrGibbage/fll-pybricks-vscode-tutorial/blob/main/md/github-accounts.md)
