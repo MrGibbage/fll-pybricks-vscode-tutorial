@@ -1,3 +1,11 @@
+# FLL Pybricks VS Code Tutorial
+
+![GitHub License](https://img.shields.io/github/license/MrGibbage/fll-pybricks-vscode-tutorial)
+![GitHub stars](https://img.shields.io/github/stars/MrGibbage/fll-pybricks-vscode-tutorial)
+![GitHub forks](https://img.shields.io/github/forks/MrGibbage/fll-pybricks-vscode-tutorial)
+![Made for FLL](https://img.shields.io/badge/Made%20for-FIRST%20LEGO%20League-blue)
+![Pybricks](https://img.shields.io/badge/Pybricks-MicroPython-orange)
+
 # FLL, GitHub, VS Code and pybricks
 
 ## Background and introduction
